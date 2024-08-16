@@ -35,8 +35,8 @@ const Benefits = () => {
                   />
                   <a
                   key={item.id}
-              href={item.url}
-                   className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider"
+                  href={item.url}
+                  className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider"
                    // Use `url` from the `benefits` array
                   >
                     Explore more

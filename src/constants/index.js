@@ -229,7 +229,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
-    url: "#signup",
+    url: "https://www.google.com",
   },
   {
     id: "1",
