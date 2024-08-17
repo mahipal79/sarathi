@@ -1,27 +1,30 @@
+import { Routes, Route } from "react-router-dom";
 import ButtonGradient from "./assets/svg/ButtonGradient";
-import Benefits from "./components/Benefits";
-import Collaboration from "./components/Collaboration";
+
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Demand from "./components/Demand";
 
-
+import Home from"./components/Pages/Home"
+import Notes from "./components/Pages/Notes"
+import Paper from "./components/Pages/Paper"
 
 const App = () => {
   return (
+  
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         <Header />
-        <Hero />
-        <Benefits />
-        <Collaboration />
-        <Demand />
-        <Footer />
+        <Routes >
+          <Route path="/" element={<Home/>}/>
+          <Route path="/notes" element={<Notes/>}/>
+          <Route path="/paper" element={<Paper/>}/>
+          </Routes>
+          
+          <Footer/>
+       
       </div>
-
       <ButtonGradient />
-    </>
+      </>
   );
 };
 
