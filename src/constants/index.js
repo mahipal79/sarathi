@@ -36,40 +36,7 @@ import {
   yourlogo,
 } from "../assets";
 
-export const navigation = [
-  {
-    id: "0",
-    title: "Home",
-    url: "#",
-  },
-  {
-    id: "1",
-    title: "Notes",
-    url: "#",
-  },
-  {
-    id: "2",
-    title: "Previous Papers",
-    url: "#",
-  },
-  {
-    id: "3",
-    title: "Our Team",
-    url: "#",
-  },
-  {
-    id: "4",
-    title: "New account",
-    url: "#",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#",
-    onlyMobile: true,
-  },
-];
+
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
@@ -91,41 +58,6 @@ export const brainwaveServicesIcons = [
   sliders04,
 ];
 
-export const roadmap = [
-  {
-    id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap1,
-    colorful: true,
-  },
-  {
-    id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap2,
-  },
-  {
-    id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap3,
-  },
-  {
-    id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap4,
-  },
-];
 
 export const collabText =
   "Share your knowledge and help others by becoming a contributor—make a difference with your expertise.";
@@ -229,7 +161,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
-    url: "https://www.google.com",
+    url: "/cse",  // Link to the CSE page
   },
   {
     id: "1",
@@ -239,7 +171,7 @@ export const benefits = [
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
-    url: "#signup",
+    url: "/chemical-engineering",  // Link to the Chemical Engineering page
   },
   {
     id: "2",
@@ -248,7 +180,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
-    url: "#signup",
+    url: "/fire-and-safety",  // Link to the Fire and Safety page
   },
   {
     id: "3",
@@ -258,7 +190,7 @@ export const benefits = [
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
     light: true,
-    url: "#signup",
+    url: "/bba",  // Link to the BBA page
   },
   {
     id: "4",
@@ -267,7 +199,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
-    url: "#roadmap",
+    url: "/bca",  // Link to the BCA page
   },
   {
     id: "5",
@@ -276,9 +208,10 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
-    url: "#roadmap",
+    url: "/bio-tech",  // Link to the Bio-Tech page
   },
 ];
+
 
 export const socials = [
   {
