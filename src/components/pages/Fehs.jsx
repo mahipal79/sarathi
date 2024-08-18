@@ -1,7 +1,12 @@
+// Fehs.jsx
 
-
-export const Fehs = () => {
+const Fehs = () => {
   return (
-    <div>Fehs</div>
-  )
-}
+    <div>
+      {/* Your component's JSX code here */}
+      <h1>This is the Fehs Page</h1>
+    </div>
+  );
+};
+
+export default Fehs;

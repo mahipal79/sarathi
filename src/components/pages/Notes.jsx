@@ -1,8 +1,10 @@
-
+import Benefits from "../Benefits"
 
 const Notes = () => {
   return (
-    <div>Notes</div>
+    <div>
+      <Benefits/>
+    </div>
   )
 }
 
