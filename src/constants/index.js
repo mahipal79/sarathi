@@ -180,7 +180,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
-    url: "/fire-and-safety",  // Link to the Fire and Safety page
+    url: "/fehs",  // Link to the Fire and Safety page
   },
   {
     id: "3",
