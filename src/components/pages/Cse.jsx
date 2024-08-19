@@ -26,7 +26,7 @@ const semesters = [
       { name: 'Professional Ethics', link: '/sem2/professional-ethics' },
     ],
   },
-  // Add semesters 3 to 8 similarly
+
   {
     id: 3,
     title: 'Semester 3',
