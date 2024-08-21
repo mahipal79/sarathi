@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { paperdata } from '../../constants/paperdata';  
 import Heading from '../Heading'; // Adjust the import path as necessary
 import Section from '../Section'; // Adjust the import path as necessary
-
+import App from '../pdfTools/PathModule.jsx';
 
 const Paper = () => {
   const [selectedCourse, setSelectedCourse] = useState('');
@@ -108,5 +108,5 @@ const Paper = () => {
     </Section>
   );
 };
-
+<App/>
 export default Paper;

@@ -18,11 +18,14 @@ import Fehs from "./components/pages/Fehs"
 
 
 const App = () => {
+
   return (
-  
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
+
         <Header />
+        
+
         <Routes >
           <Route path="/" element={<Home/>}/>
           <Route path="/notes" element={<Notes/>}/>
@@ -34,7 +37,7 @@ const App = () => {
           <Route path="/bca" element={<Bca/>}/>
           <Route path="/chemical-engineering" element={<Chemical/>}/>
           <Route path="/fehs" element={<Fehs/>}/>
-          <Route path="/bio-tech" element={<BioTech/>}/>
+          <Route path="/bio-tech" element={<BioTech/>}/>   
 
 
           </Routes>
