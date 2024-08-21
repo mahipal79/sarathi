@@ -7,7 +7,7 @@ export const paperdata = {
         title: 'Semester 1',
         subjects: [
           { name: 'Mathematics I', papers: [
-              { name: 'Math I Mid Sem Paper 2021', year: 2021, link: '/cse/sem1/math1-mid2021.pdf', examType: 'Mid Sem' },
+              { name: 'Math I Mid Sem Paper 2021', year: 2021, link: '', examType: 'Mid Sem' },
               { name: 'Math I End Sem Paper 2021', year: 2021, link: '/cse/sem1/math1-end2021.pdf', examType: 'End Sem' },
               { name: 'Math I Mid Sem Paper 2022', year: 2022, link: '/cse/sem1/math1-mid2022.pdf', examType: 'Mid Sem' },
               { name: 'Math I End Sem Paper 2022', year: 2022, link: '/cse/sem1/math1-end2022.pdf', examType: 'End Sem' },

@@ -48,7 +48,7 @@ const Paper = () => {
   return (
     <Section id="features">
     <div className="p-6 bg-n-8 container ">
-      <Heading title="Filter Papers" className="text-3xl font-bold mb-6 text-center sm:text-left" />
+      <Heading title="Filter Papers" className="text-3xl font-bold mb-6 " />
 
       <div className="mb-6">
         <label htmlFor="course" className="block text-sm font-medium text-n-1">Course</label>

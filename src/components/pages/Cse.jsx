@@ -6,7 +6,7 @@ const semesters = [
     id: 1,
     title: 'Semester 1',
     subjects: [
-      { name: 'Mathematics I', link: '/sem1/math1' },
+      { name: 'Mathematics I', link: 'https://drive.google.com/file/d/1ygOi7b2jAgOpCRdeF4fbwQp5_7uj8glD/view?usp=sharing' },
       { name: 'Physics I', link: '/sem1/physics1' },
       { name: 'Chemistry', link: '/sem1/chemistry' },
       { name: 'Programming Basics', link: '/sem1/programming-basics' },
