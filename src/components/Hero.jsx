@@ -14,7 +14,7 @@ const Hero = () => {
 
   return (
     <Section
-      className="pt-[12rem] -mt-[5.25rem]"
+      className="pt-[12rem] -mt-[11.25rem]"
       crosses
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
@@ -37,9 +37,9 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-          You don't need a Saathi in your college life, you need Sarathi.
+          You don't need a Saathi in your college life, you need Sarathi (सारथी)
           </p>
-          <Button href="/pricing" white>
+          <Button to="/getstart" white>
             Get started
           </Button>
         </div>

@@ -1,18 +1,19 @@
-import { benefits } from "../constants";
-import Heading from "./Heading";
-import Section from "./Section";
-import Arrow from "../assets/svg/Arrow";
-import { GradientLight } from "./design/Benefits";
-import ClipPath from "../assets/svg/ClipPath";
 import { Link } from "react-router-dom";
+import { benefits } from "../../constants";
+import Arrow from "../../assets/svg/Arrow";
+import { GradientLight } from "../../components/design/Benefits";
+import ClipPath from "../../assets/svg/ClipPath";
+import Section from "../Section";
+import Heading from "../Heading";
 
-const Benefits = () => {
+
+const GetStartedSection = () => {
   return (
     <Section id="features">
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Find the Notes Everyone's Searching For"
+          title="Get Started with Your Resources"
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
@@ -35,10 +36,10 @@ const Benefits = () => {
                     alt={item.title}
                   />
                   <Link
-                    to={item.url}  // Use `url` from the `benefits` array
+                    to={item.url}
                     className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider"
                   >
-                    DOWNLOAD..
+                    Explore
                   </Link>
                   <Arrow />
                 </div>
@@ -72,4 +73,4 @@ const Benefits = () => {
   );
 };
 
-export default Benefits;
+export default GetStartedSection;
