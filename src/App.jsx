@@ -15,6 +15,7 @@ import Bca from "./components/pages/Bca"
 import Chemical from "./components/pages/Chemical"
 import BioTech from "./components/pages/BioTech"
 import Fehs from "./components/pages/Fehs"
+import GetStart from "./components/pages/Getstart";
 
 
 const App = () => {
@@ -31,6 +32,9 @@ const App = () => {
           <Route path="/notes" element={<Notes/>}/>
           <Route path="/paper" element={<Paper/>}/>
           <Route path="/our-team" element={<OurTeam/>}/>
+          <Route path="/getstart" element={<GetStart/>}/>
+         
+
 
           <Route path="/cse" element={<Cse/>}/>
           <Route path="/bba" element={<Bba/>}/>
