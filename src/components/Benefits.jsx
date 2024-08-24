@@ -34,17 +34,9 @@ const Benefits = () => {
                     height={48}
                     alt={item.title}
                   />
-<<<<<<< HEAD
                   <Link
                     to={item.url}  // Use `url` from the `benefits` array
                     className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider"
-=======
-                  <a
-                  key={item.id}
-                  href={item.url}
-                   className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider"
-                   // Use `url` from the `benefits` array
->>>>>>> origin/main
                   >
                     DOWNLOAD..
                   </Link>
