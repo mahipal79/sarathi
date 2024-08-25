@@ -22,7 +22,7 @@ const PricingList = () => {
 
       if (response.ok) {
         alert("Message sent successfully!");
-        setMessage(""); // Clear the message after sending
+        setMessage("");
       } else {
         alert("Failed to send message.");
       }
@@ -78,7 +78,6 @@ const PricingList = () => {
                 className="px-4 py-2 bg-blue-600 text-white rounded-r-[2rem] flex items-center"
               >
                 <span className="mr-2">Send</span>
-                {/* Replace with your send icon */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

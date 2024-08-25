@@ -27,7 +27,7 @@ const Pricing = () => {
           </div>
         </div>
 
-        <Heading
+        <Heading className="text-center sm:text-left"
           tag="Get started with Sarathi"
           title="In the world of knowledge, we are your friend, guide, and guru!"
         />

@@ -15,7 +15,8 @@ import Bca from "./components/pages/Bca"
 import Chemical from "./components/pages/Chemical"
 import BioTech from "./components/pages/BioTech"
 import Fehs from "./components/pages/Fehs"
-import GetStart from "./components/pages/Getstart";
+import GetStart from "./components/pages/Getstart"
+import Joinus from "./components/joinus"
 
 
 const App = () => {
@@ -33,6 +34,7 @@ const App = () => {
           <Route path="/paper" element={<Paper/>}/>
           <Route path="/our-team" element={<OurTeam/>}/>
           <Route path="/getstart" element={<GetStart/>}/>
+          <Route path="/joinus" element={<Joinus/>}/>
          
 
 

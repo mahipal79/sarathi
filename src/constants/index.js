@@ -30,6 +30,7 @@ import {
   telegram,
   twitter,
   yourlogo,
+  
 } from "../assets";
 
 
@@ -239,5 +240,29 @@ export const socials = [
     title: "Facebook",
     iconUrl: facebook,
     url: "#",
+  },
+];
+export const teamMembers = [
+  {
+    id: 1,
+    name: "Mahipal Chauhan",
+    role: "Web Developer",
+    description: "Crafted the visual experience",
+    imageUrl: "./src/assets/mahipal.jpg", 
+    twitterUrl: "/",
+    instagramUrl: "/",
+    githubUrl: "/",
+    linkedinUrl: "/",
+  },
+  {
+    id: 2,
+    name: "Krishna Bhatt",
+    role: "Web Developer",
+    description: "Crafted the core logic",
+    imageUrl: "./src/assets/krsna.jpg",
+    twitterUrl: "/",
+    instagramUrl: "/",
+    githubUrl: "/",
+    linkedinUrl: "/",
   },
 ];
