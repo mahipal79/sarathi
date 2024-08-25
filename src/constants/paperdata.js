@@ -7,30 +7,30 @@ export const paperdata = {
       title: 'Semester 1',
       subjects: [
         { name: 'Mathematics I', papers: [
-            { name: 'Math I Mid Sem Paper 2021', year: 2021, link: '/cse/sem1/math1-mid2021.pdf', examType: 'Mid Sem' },
-            { name: 'Math I End Sem Paper 2021', year: 2021, link: '/cse/sem1/math1-end2021.pdf', examType: 'End Sem' },
-            { name: 'Math I Mid Sem Paper 2022', year: 2022, link: '/cse/sem1/math1-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Math I End Sem Paper 2022', year: 2022, link: '/cse/sem1/math1-end2022.pdf', examType: 'End Sem' },
+            { name: 'Math I Mid Sem Paper 2021', year: 2021, link: '/sem1/math1-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Math I End Sem Paper 2021', year: 2021, link: '/sem1/math1-end2021.pdf', examType: 'End Sem' },
+            { name: 'Math I Mid Sem Paper 2022', year: 2022, link: '/sem1/math1-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Math I End Sem Paper 2022', year: 2022, link: '/sem1/math1-end2022.pdf', examType: 'End Sem' },
             { name: 'Math I Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/16XS0tk5c5lTVLPtaOxPT05YPE88HvT9S/view?usp=drive_link', examType: 'Mid Sem' },
-            { name: 'Math I End Sem Paper 2023', year: 2023, link: '/cse/sem1/math1-end2022.pdf', examType: 'End Sem' },
+            { name: 'Math I End Sem Paper 2023', year: 2023, link: 'sem1/math1-end2022.pdf', examType: 'End Sem' },
           ]
         },
         { name: 'English', papers: [
-          { name: 'English Mid Sem Paper 2021', year: 2021, link: '/cse/sem1/math1-mid2021.pdf', examType: 'Mid Sem' },
-          { name: 'English End Sem Paper 2021', year: 2021, link: '/cse/sem1/math1-end2021.pdf', examType: 'End Sem' },
-          { name: 'English Mid Sem Paper 2022', year: 2022, link: '/cse/sem1/math1-mid2022.pdf', examType: 'Mid Sem' },
-          { name: 'English End Sem Paper 2022', year: 2022, link: '/cse/sem1/math1-end2022.pdf', examType: 'End Sem' },
+          { name: 'English Mid Sem Paper 2021', year: 2021, link: 'sem1/m-mid2021.pdf', examType: 'Mid Sem' },
+          { name: 'English End Sem Paper 2021', year: 2021, link: 'sem1/-end2021.pdf', examType: 'End Sem' },
+          { name: 'English Mid Sem Paper 2022', year: 2022, link: 'sem1/-mid2022.pdf', examType: 'Mid Sem' },
+          { name: 'English End Sem Paper 2022', year: 2022, link: 'sem1/-end2022.pdf', examType: 'End Sem' },
           { name: 'English Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/16_slHq22KDJZSPcySbBsK4q3B-fka8Oq/view?usp=drive_link', examType: 'Mid Sem' },
-          { name: 'English End Sem Paper 2023', year: 2023, link: '/cse/sem1/math1-end2022.pdf', examType: 'End Sem' },
+          { name: 'English End Sem Paper 2023', year: 2023, link: 'sem1/math1-end2022.pdf', examType: 'End Sem' },
         ]
       },
         { name: 'Physics', papers: [
-            { name: 'Physics Mid Sem Paper 2021', year: 2021, link: '/cse/sem1/physics1-mid2021.pdf', examType: 'Mid Sem' },
-            { name: 'Physics End Sem Paper 2021', year: 2021, link: '/cse/sem1/physics1-end2021.pdf', examType: 'End Sem' },
-            { name: 'Physics Mid Sem Paper 2022', year: 2022, link: '/cse/sem1/physics1-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Physics End Sem Paper 2022', year: 2022, link: '/cse/sem1/physics1-end2022.pdf', examType: 'End Sem' },
+            { name: 'Physics Mid Sem Paper 2021', year: 2021, link: 'sem1/physics1-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Physics End Sem Paper 2021', year: 2021, link: 'sem1/physics1-end2021.pdf', examType: 'End Sem' },
+            { name: 'Physics Mid Sem Paper 2022', year: 2022, link: 'sem1/physics1-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Physics End Sem Paper 2022', year: 2022, link: 'sem1/physics1-end2022.pdf', examType: 'End Sem' },
             { name: 'Physics Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/16XS0tk5c5lTVLPtaOxPT05YPE88HvT9S/view?usp=drive_link', examType: 'Mid Sem' },
-            { name: 'Physics End Sem Paper 2023', year: 2023, link: '/cse/sem1/physics1-end2022.pdf', examType: 'End Sem' },
+            { name: 'Physics End Sem Paper 2023', year: 2023, link: 'sem1/physics1-end2022.pdf', examType: 'End Sem' },
           ]
         },
         { name: 'Fire & Enviroment Health Safety', papers: [

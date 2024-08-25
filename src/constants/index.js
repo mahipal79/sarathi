@@ -14,6 +14,8 @@ import {
   framer,
   homeSmile,
   instagram,
+  roadmap1,
+  roadmap2,
   notification2,
   notification3,
   notification4,
@@ -208,6 +210,27 @@ export const benefits = [
     url: "/bio-tech",  // Link to the Bio-Tech page
   },
 ];
+export const roadmap = [
+  {
+    id: "0",
+    title: "Trusted Academic Companion",
+    text: "Sarathi is your go-to resource, offering a vast and reliable collection of university notes and previous exam papers.",
+    date: "Sarathi1.0",
+    status: "done",
+    imageUrl: roadmap1,
+    colorful: true,
+  },
+  {
+    id: "1",
+    title: "Request What You Need",
+    text: "Can’t find the notes or papers you're looking for? Use our Demand Notes System to request specific materials. ",
+    date: "2.0",
+    status: "progress",
+    imageUrl: roadmap2,
+    colorful: true,
+  },
+
+];
 
 
 export const socials = [
@@ -264,5 +287,6 @@ export const teamMembers = [
     instagramUrl: "/",
     githubUrl: "/",
     linkedinUrl: "/",
+   
   },
 ];
