@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Button from './Button';
 import Section from "./Section";
 import Heading from "./Heading";
+import { Link } from 'react-router-dom';
 
 const JoinUsForm = () => {
   const [name, setName] = useState("");
@@ -42,16 +43,12 @@ const JoinUsForm = () => {
       });
 
       if (response.ok) {
-        // Clear form fields
         setName("");
         setEmail("");
         setNotes([]);
         setComments("");
-        setErrors({}); // Clear errors
+        setErrors({});
         setSubmitted(true);
-
-        // Automatically hide the thank-you message after a few seconds
-        setTimeout(() => setSubmitted(false), 3000);
       } else {
         alert("Failed to submit form.");
       }
@@ -111,9 +108,17 @@ const JoinUsForm = () => {
             {errors.comments && <p className="text-red-500 text-sm">{errors.comments}</p>}
           </div>
           <div className="w-full flex justify-center">
-            <Button type="submit">
-              Submit
-            </Button>
+            {!submitted ? (
+              <Button type="submit">
+                Submit
+              </Button>
+            ) : (
+              <Link to="/" className="w-full flex justify-center">
+                <Button>
+                  Back to Home
+                </Button>
+              </Link>
+            )}
           </div>
         </form>
 
