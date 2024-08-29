@@ -364,76 +364,306 @@ export const paperdata =
     },
     
   ],
-  BscChemistry: [
+  BSCchemistry: [
     {
       id: 1,
       title: 'Semester 1',
       subjects: [
-        { name: 'Introduction to Management', papers: [
-            { name: 'Introduction to Management Mid Sem Paper 2021', year: 2021, link: '/bba/sem1/management-mid2021.pdf', examType: 'Mid Sem' },
-            { name: 'Introduction to Management End Sem Paper 2021', year: 2021, link: '/bba/sem1/management-end2021.pdf', examType: 'End Sem' },
-            { name: 'Introduction to Management Mid Sem Paper 2022', year: 2022, link: '/bba/sem1/management-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Introduction to Management End Sem Paper 2022', year: 2022, link: '/bba/sem1/management-end2022.pdf', examType: 'End Sem' },
+        { name: 'Physical Chemistry', papers: [
+            { name: 'Physical Chemistry Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/management-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Physical Chemistry End Sem Paper 2021', year: 2021, link: 'bba/sem1/management-end2021.pdf', examType: 'End Sem' },
+            { name: 'Physical Chemistry Mid Sem Paper 2022', year: 2022, link: 'https://drive.google.com/file/d/18cTd1mQLqzs6laJPy407C9GhZE0MjfdO/view?usp=drive_link', examType: 'Mid Sem' },
+            { name: 'Physical Chemistry End Sem Paper 2022', year: 2022, link: 'bba/sem1/management-end2022.pdf', examType: 'End Sem' },
+            { name: 'Physical Chemistry Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/management-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Physical Chemistry End Sem Paper 2023', year: 2023, link: 'bba/sem1/management-end2021.pdf', examType: 'End Sem' },
+            { name: 'Physical Chemistry Mid Sem Paper 2024', year: 2024, link: 'bba/sem1/management-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Physical Chemistry End Sem Paper 2024', year: 2024, link: 'bba/sem1/management-end2022.pdf', examType: 'End Sem' },
           ]
         },
-        { name: 'Principles of Economics', papers: [
-            { name: 'Principles of Economics Mid Sem Paper 2021', year: 2021, link: '/bba/sem1/economics-mid2021.pdf', examType: 'Mid Sem' },
-            { name: 'Principles of Economics End Sem Paper 2021', year: 2021, link: '/bba/sem1/economics-end2021.pdf', examType: 'End Sem' },
-            { name: 'Principles of Economics Mid Sem Paper 2022', year: 2022, link: '/bba/sem1/economics-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Principles of Economics End Sem Paper 2022', year: 2022, link: '/bba/sem1/economics-end2022.pdf', examType: 'End Sem' },
+        { name: 'Inorganic Chemistry', papers: [
+            { name: 'Inorganic Chemistry Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/economics-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Inorganic Chemistry End Sem Paper 2021', year: 2021, link: 'bba/sem1/economics-end2021.pdf', examType: 'End Sem' },
+            { name: 'Inorganic Chemistry Mid Sem Paper 2022', year: 2022, link: 'https://drive.google.com/file/d/18YgJ2_ovQVRqIaXB1GYh60TOstC8q7xn/view?usp=drive_link', examType: 'Mid Sem' },
+            { name: 'Inorganic Chemistry End Sem Paper 2022', year: 2022, link: 'https://drive.google.com/file/d/18gRXaq7AW5k7j0g1K56cJMZbQBIaviFQ/view?usp=drive_link', examType: 'End Sem' },
+            { name: 'Inorganic Chemistry Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/economics-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Inorganic Chemistry End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/18ocU7CXo0LyjbugxVJta2oTjz48ShfpJ/view?usp=drive_link', examType: 'End Sem' },
+            { name: 'Inorganic Chemistry Mid Sem Paper 2024', year: 2024, link: 'bba/sem1/economics-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Inorganic Chemistry End Sem Paper 2024', year: 2024, link: 'bba/sem1/economics-end2022.pdf', examType: 'End Sem' },
           ]
         },
-        { name: 'Business Communication', papers: [
-            { name: 'Business Communication Mid Sem Paper 2021', year: 2021, link: '/bba/sem1/business-communication-mid2021.pdf', examType: 'Mid Sem' },
-            { name: 'Business Communication End Sem Paper 2021', year: 2021, link: '/bba/sem1/business-communication-end2021.pdf', examType: 'End Sem' },
-            { name: 'Business Communication Mid Sem Paper 2022', year: 2022, link: '/bba/sem1/business-communication-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Business Communication End Sem Paper 2022', year: 2022, link: '/bba/sem1/business-communication-end2022.pdf', examType: 'End Sem' },
+        { name: 'Organic Chemistry', papers: [
+            { name: 'Organic Chemistry Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/business-communication-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Organic Chemistry End Sem Paper 2021', year: 2021, link: 'bba/sem1/business-communication-end2021.pdf', examType: 'End Sem' },
+            { name: 'Organic Chemistry Mid Sem Paper 2022', year: 2022, link: 'bba/sem1/business-communication-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Organic Chemistry End Sem Paper 2022', year: 2022, link: 'bba/sem1/business-communication-end2022.pdf', examType: 'End Sem' },
+            { name: 'Organic Chemistry Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/business-communication-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Organic Chemistry End Sem Paper 2023', year: 2023, link: 'bba/sem1/business-communication-end2021.pdf', examType: 'End Sem' },
+            { name: 'Organic Chemistry Mid Sem Paper 2024', year: 2024, link: 'bba/sem1/business-communication-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Organic Chemistry End Sem Paper 2024', year: 2024, link: 'bba/sem1/business-communication-end2022.pdf', examType: 'End Sem' },
           ]
         },
-        { name: 'Organizational Behavior', papers: [
-            { name: 'Organizational Behavior Mid Sem Paper 2021', year: 2021, link: '/bba/sem1/organizational-behavior-mid2021.pdf', examType: 'Mid Sem' },
-            { name: 'Organizational Behavior End Sem Paper 2021', year: 2021, link: '/bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
-            { name: 'Organizational Behavior Mid Sem Paper 2022', year: 2022, link: '/bba/sem1/organizational-behavior-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Organizational Behavior End Sem Paper 2022', year: 2022, link: '/bba/sem1/organizational-behavior-end2022.pdf', examType: 'End Sem' },
+        { name: 'Maths', papers: [
+            { name: 'Maths Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Maths End Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+            { name: 'Maths Mid Sem Paper 2022', year: 2022, link: 'https://drive.google.com/file/d/18dOs0ihpqa6ogfa6YZBR7Wo75ugyu7s1/view?usp=drive_link', examType: 'Mid Sem' },
+            { name: 'Maths End Sem Paper 2022', year: 2022, link: 'bba/sem1/organizational-behavior-end2022.pdf', examType: 'End Sem' },
+            { name: 'Maths Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/organizational-behavior-mid2023.pdf', examType: 'Mid Sem' },
+            { name: 'Maths End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/190EpysHl1AkOdTaU6v5X4-qeIjEi-nJ1/view?usp=drive_link', examType: 'End Sem' },
+            { name: 'Maths Mid Sem Paper 2024', year: 2024, link: 'bba/sem1/organizational-behavior-mid2024.pdf', examType: 'Mid Sem' },
+            { name: 'Maths End Sem Paper 2024', year: 2024, link: 'bba/sem1/organizational-behavior-end2024.pdf', examType: 'End Sem' },
           ]
         },
+        { name: 'English', papers: [
+          { name: 'English Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-mid2021.pdf', examType: 'Mid Sem' },
+          { name: 'English End Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+          { name: 'English Mid Sem Paper 2022', year: 2022, link: 'https://drive.google.com/file/d/18ZbYSXuDQz2yNPGFQYW8PIiHewu0mX7x/view?usp=drive_link', examType: 'Mid Sem' },
+          { name: 'English End Sem Paper 2022', year: 2022, link: 'https://drive.google.com/file/d/18jBV8b0oJGQwID0C7QiYb82RgKXbo7CS/view?usp=drive_link', examType: 'End Sem' },
+          { name: 'English Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/organizational-behavior-mid2023.pdf', examType: 'Mid Sem' },
+          { name: 'English End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/18xUHfUnKYdPylhkBfy0tH5jIpoeEGpay/view?usp=drive_link', examType: 'End Sem' },
+          { name: 'English Mid Sem Paper 2024', year: 2024, link: 'bba/sem1/organizational-behavior-mid2024.pdf', examType: 'Mid Sem' },
+          { name: 'English End Sem Paper 2024', year: 2024, link: 'bba/sem1/organizational-behavior-end2024.pdf', examType: 'End Sem' },
+        ]
+      },
       ],
     },
     {
       id: 2,
       title: 'Semester 2',
       subjects: [
-        { name: 'Financial Accounting', papers: [
-            { name: 'Financial Accounting Mid Sem Paper 2021', year: 2021, link: '/bba/sem2/financial-accounting-mid2021.pdf', examType: 'Mid Sem' },
-            { name: 'Financial Accounting End Sem Paper 2021', year: 2021, link: '/bba/sem2/financial-accounting-end2021.pdf', examType: 'End Sem' },
-            { name: 'Financial Accounting Mid Sem Paper 2022', year: 2022, link: '/bba/sem2/financial-accounting-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Financial Accounting End Sem Paper 2022', year: 2022, link: '/bba/sem2/financial-accounting-end2022.pdf', examType: 'End Sem' },
+        { name: 'Physical Chemistry', papers: [
+            { name: 'Physical Chemistry Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/management-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Physical Chemistry End Sem Paper 2021', year: 2021, link: 'bba/sem1/management-end2021.pdf', examType: 'End Sem' },
+            { name: 'Physical Chemistry Mid Sem Paper 2022', year: 2022, link: 'bba/sem1/management-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Physical Chemistry End Sem Paper 2022', year: 2022, link: 'bba/sem1/management-end2022.pdf', examType: 'End Sem' },
+            { name: 'Physical Chemistry Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/management-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Physical Chemistry End Sem Paper 2023', year: 2023, link: 'bba/sem1/management-end2021.pdf', examType: 'End Sem' },
+            { name: 'Physical Chemistry Mid Sem Paper 2024', year: 2024, link: 'bba/sem1/management-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Physical Chemistry End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/19Oi264w0lMjvrif7bOdSiT8-k4P7CISk/view?usp=drive_link', examType: 'End Sem' },
           ]
         },
-        { name: 'Business Law', papers: [
-            { name: 'Business Law Mid Sem Paper 2021', year: 2021, link: '/bba/sem2/business-law-mid2021.pdf', examType: 'Mid Sem' },
-            { name: 'Business Law End Sem Paper 2021', year: 2021, link: '/bba/sem2/business-law-end2021.pdf', examType: 'End Sem' },
-            { name: 'Business Law Mid Sem Paper 2022', year: 2022, link: '/bba/sem2/business-law-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Business Law End Sem Paper 2022', year: 2022, link: '/bba/sem2/business-law-end2022.pdf', examType: 'End Sem' },
+        { name: 'Inorganic Chemistry', papers: [
+            { name: 'Inorganic Chemistry Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/economics-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Inorganic Chemistry End Sem Paper 2021', year: 2021, link: 'bba/sem1/economics-end2021.pdf', examType: 'End Sem' },
+            { name: 'Inorganic Chemistry Mid Sem Paper 2022', year: 2022, link: 'bba/sem1/economics-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Inorganic Chemistry End Sem Paper 2022', year: 2022, link: 'bba/sem1/economics-end2022.pdf', examType: 'End Sem' },
+            { name: 'Inorganic Chemistry Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/economics-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Inorganic Chemistry End Sem Paper 2023', year: 2023, link: 'bba/sem1/economics-end2021.pdf', examType: 'End Sem' },
+            { name: 'Inorganic Chemistry Mid Sem Paper 2024', year: 2024, link: 'bba/sem1/economics-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Inorganic Chemistry End Sem Paper 2024', year: 2024, link: 'bba/sem1/economics-end2022.pdf', examType: 'End Sem' },
           ]
         },
-        { name: 'Marketing Management', papers: [
-            { name: 'Marketing Management Mid Sem Paper 2021', year: 2021, link: '/bba/sem2/marketing-management-mid2021.pdf', examType: 'Mid Sem' },
-            { name: 'Marketing Management End Sem Paper 2021', year: 2021, link: '/bba/sem2/marketing-management-end2021.pdf', examType: 'End Sem' },
-            { name: 'Marketing Management Mid Sem Paper 2022', year: 2022, link: '/bba/sem2/marketing-management-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Marketing Management End Sem Paper 2022', year: 2022, link: '/bba/sem2/marketing-management-end2022.pdf', examType: 'End Sem' },
+        { name: 'Organic Chemistry', papers: [
+            { name: 'Organic Chemistry Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/business-communication-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Organic Chemistry End Sem Paper 2021', year: 2021, link: 'bba/sem1/business-communication-end2021.pdf', examType: 'End Sem' },
+            { name: 'Organic Chemistry Mid Sem Paper 2022', year: 2022, link: 'bba/sem1/business-communication-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Organic Chemistry End Sem Paper 2022', year: 2022, link: 'bba/sem1/business-communication-end2022.pdf', examType: 'End Sem' },
+            { name: 'Organic Chemistry Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/business-communication-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Organic Chemistry End Sem Paper 2023', year: 2023, link: 'bba/sem1/business-communication-end2021.pdf', examType: 'End Sem' },
+            { name: 'Organic Chemistry Mid Sem Paper 2024', year: 2024, link: 'bba/sem1/business-communication-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Organic Chemistry End Sem Paper 2024', year: 2024, link: 'bba/sem1/business-communication-end2022.pdf', examType: 'End Sem' },
           ]
         },
-        { name: 'Human Resource Management', papers: [
-            { name: 'Human Resource Management Mid Sem Paper 2021', year: 2021, link: '/bba/sem2/hrm-mid2021.pdf', examType: 'Mid Sem' },
-            { name: 'Human Resource Management End Sem Paper 2021', year: 2021, link: '/bba/sem2/hrm-end2021.pdf', examType: 'End Sem' },
-            { name: 'Human Resource Management Mid Sem Paper 2022', year: 2022, link: '/bba/sem2/hrm-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Human Resource Management End Sem Paper 2022', year: 2022, link: '/bba/sem2/hrm-end2022.pdf', examType: 'End Sem' },
+        { name: 'Maths', papers: [
+            { name: 'Maths Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Maths End Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+            { name: 'Maths Mid Sem Paper 2022', year: 2022, link: 'bba/sem1/organizational-behavior-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Maths End Sem Paper 2022', year: 2022, link: 'bba/sem1/organizational-behavior-end2022.pdf', examType: 'End Sem' },
+            { name: 'Maths Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/organizational-behavior-mid2023.pdf', examType: 'Mid Sem' },
+            { name: 'Maths End Sem Paper 2023', year: 2023, link: 'bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+            { name: 'Maths Mid Sem Paper 2024', year: 2024, link: 'bba/sem1/organizational-behavior-mid2024.pdf', examType: 'Mid Sem' },
+            { name: 'Maths End Sem Paper 2024', year: 2024, link: 'bba/sem1/organizational-behavior-end2024.pdf', examType: 'End Sem' },
           ]
         },
+        { name: 'Physics', papers: [
+          { name: 'Physics Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-mid2021.pdf', examType: 'Mid Sem' },
+          { name: 'Physics End Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+          { name: 'Physics Mid Sem Paper 2022', year: 2022, link: 'bba/sem1/organizational-behavior-mid2022.pdf', examType: 'Mid Sem' },
+          { name: 'Physics End Sem Paper 2022', year: 2022, link: 'bba/sem1/organizational-behavior-end2022.pdf', examType: 'End Sem' },
+          { name: 'Physics Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/organizational-behavior-mid2023.pdf', examType: 'Mid Sem' },
+          { name: 'Physics End Sem Paper 2023', year: 2023, link: 'bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+          { name: 'Physics Mid Sem Paper 2024', year: 2024, link: 'bba/sem1/organizational-behavior-mid2024.pdf', examType: 'Mid Sem' },
+          { name: 'Physics End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/19GR3Mi_za_k558bl-G-06UmOqTtVI9U8/view?usp=drive_link', examType: 'End Sem' },
+        ]
+      },
+      { name: 'Social Work', papers: [
+        { name: 'Social Work Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-mid2021.pdf', examType: 'Mid Sem' },
+        { name: 'Social Work End Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+        { name: 'Social Work Mid Sem Paper 2022', year: 2022, link: 'bba/sem1/organizational-behavior-mid2022.pdf', examType: 'Mid Sem' },
+        { name: 'Social Work End Sem Paper 2022', year: 2022, link: 'bba/sem1/organizational-behavior-end2022.pdf', examType: 'End Sem' },
+        { name: 'Social Work Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/organizational-behavior-mid2023.pdf', examType: 'Mid Sem' },
+        { name: 'Social Work End Sem Paper 2023', year: 2023, link: 'bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+        { name: 'Social Work Mid Sem Paper 2024', year: 2024, link: 'bba/sem1/organizational-behavior-mid2024.pdf', examType: 'Mid Sem' },
+        { name: 'Social Work End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/19PColaH2hzkMfdFm68tJy0GbujXGGEnS/view?usp=drive_link', examType: 'End Sem' },
+      ]
+    },
+    { name: 'Health & PE', papers: [
+      { name: 'Health & PE Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-mid2021.pdf', examType: 'Mid Sem' },
+      { name: 'Health & PE End Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+      { name: 'Health & PE Mid Sem Paper 2022', year: 2022, link: 'bba/sem1/organizational-behavior-mid2022.pdf', examType: 'Mid Sem' },
+      { name: 'Health & PE End Sem Paper 2022', year: 2022, link: 'bba/sem1/organizational-behavior-end2022.pdf', examType: 'End Sem' },
+      { name: 'Health & PE Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/organizational-behavior-mid2023.pdf', examType: 'Mid Sem' },
+      { name: 'Health & PE End Sem Paper 2023', year: 2023, link: 'bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+      { name: 'Health & PE Mid Sem Paper 2024', year: 2024, link: 'bba/sem1/organizational-behavior-mid2024.pdf', examType: 'Mid Sem' },
+      { name: 'Health & PE End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/19OpBuf6UTjhrkFju9pyUcDDGeVxKwdMR/view?usp=drive_link', examType: 'End Sem' },
+    ]
+  },
       ],
     },
-    
+    {
+      id: 3,
+      title: 'Semester 3',
+      subjects: [
+        { name: 'Physical Chemistry', papers: [
+            { name: 'Physical Chemistry Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/management-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Physical Chemistry End Sem Paper 2021', year: 2021, link: 'bba/sem1/management-end2021.pdf', examType: 'End Sem' },
+            { name: 'Physical Chemistry Mid Sem Paper 2022', year: 2022, link: 'bba/sem1/management-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Physical Chemistry End Sem Paper 2022', year: 2022, link: 'bba/sem1/management-end2022.pdf', examType: 'End Sem' },
+            { name: 'Physical Chemistry Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/management-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Physical Chemistry End Sem Paper 2023', year: 2023, link: 'bba/sem1/management-end2021.pdf', examType: 'End Sem' },
+            { name: 'Physical Chemistry Mid Sem Paper 2024', year: 2024, link: 'bba/sem1/management-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Physical Chemistry End Sem Paper 2024', year: 2024, link: 'limk', examType: 'End Sem' },
+          ]
+        },
+        { name: 'Inorganic Chemistry', papers: [
+            { name: 'Inorganic Chemistry Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/economics-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Inorganic Chemistry End Sem Paper 2021', year: 2021, link: 'bba/sem1/economics-end2021.pdf', examType: 'End Sem' },
+            { name: 'Inorganic Chemistry Mid Sem Paper 2022', year: 2022, link: 'bba/sem1/economics-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Inorganic Chemistry End Sem Paper 2022', year: 2022, link: 'bba/sem1/economics-end2022.pdf', examType: 'End Sem' },
+            { name: 'Inorganic Chemistry Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/economics-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Inorganic Chemistry End Sem Paper 2023', year: 2023, link: 'bba/sem1/economics-end2021.pdf', examType: 'End Sem' },
+            { name: 'Inorganic Chemistry Mid Sem Paper 2024', year: 2024, link: 'bba/sem1/economics-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Inorganic Chemistry End Sem Paper 2024', year: 2024, link: 'bba/sem1/economics-end2022.pdf', examType: 'End Sem' },
+          ]
+        },
+        { name: 'Organic Chemistry', papers: [
+            { name: 'Organic Chemistry Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/business-communication-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Organic Chemistry End Sem Paper 2021', year: 2021, link: 'bba/sem1/business-communication-end2021.pdf', examType: 'End Sem' },
+            { name: 'Organic Chemistry Mid Sem Paper 2022', year: 2022, link: 'bba/sem1/business-communication-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Organic Chemistry End Sem Paper 2022', year: 2022, link: 'bba/sem1/business-communication-end2022.pdf', examType: 'End Sem' },
+            { name: 'Organic Chemistry Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/business-communication-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Organic Chemistry End Sem Paper 2023', year: 2023, link: 'bba/sem1/business-communication-end2021.pdf', examType: 'End Sem' },
+            { name: 'Organic Chemistry Mid Sem Paper 2024', year: 2024, link: 'bba/sem1/business-communication-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Organic Chemistry End Sem Paper 2024', year: 2024, link: 'bba/sem1/business-communication-end2022.pdf', examType: 'End Sem' },
+          ]
+        },
+        { name: 'Maths', papers: [
+            { name: 'Maths Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Maths End Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+            { name: 'Maths Mid Sem Paper 2022', year: 2022, link: 'bba/sem1/organizational-behavior-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Maths End Sem Paper 2022', year: 2022, link: 'bba/sem1/organizational-behavior-end2022.pdf', examType: 'End Sem' },
+            { name: 'Maths Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/organizational-behavior-mid2023.pdf', examType: 'Mid Sem' },
+            { name: 'Maths End Sem Paper 2023', year: 2023, link: 'bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+            { name: 'Maths Mid Sem Paper 2024', year: 2024, link: 'bba/sem1/organizational-behavior-mid2024.pdf', examType: 'Mid Sem' },
+            { name: 'Maths End Sem Paper 2024', year: 2024, link: 'bba/sem1/organizational-behavior-end2024.pdf', examType: 'End Sem' },
+          ]
+        },
+        { name: 'Physics', papers: [
+          { name: 'Physics Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-mid2021.pdf', examType: 'Mid Sem' },
+          { name: 'Physics End Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+          { name: 'Physics Mid Sem Paper 2022', year: 2022, link: 'bba/sem1/organizational-behavior-mid2022.pdf', examType: 'Mid Sem' },
+          { name: 'Physics End Sem Paper 2022', year: 2022, link: 'bba/sem1/organizational-behavior-end2022.pdf', examType: 'End Sem' },
+          { name: 'Physics Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/organizational-behavior-mid2023.pdf', examType: 'Mid Sem' },
+          { name: 'Physics End Sem Paper 2023', year: 2023, link: 'bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+          { name: 'Physics Mid Sem Paper 2024', year: 2024, link: 'bba/sem1/organizational-behavior-mid2024.pdf', examType: 'Mid Sem' },
+          { name: 'Physics End Sem Paper 2024', year: 2024, link: 'link', examType: 'End Sem' },
+        ]
+      },
+      { name: 'Social Work', papers: [
+        { name: 'Social Work Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-mid2021.pdf', examType: 'Mid Sem' },
+        { name: 'Social Work End Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+        { name: 'Social Work Mid Sem Paper 2022', year: 2022, link: 'bba/sem1/organizational-behavior-mid2022.pdf', examType: 'Mid Sem' },
+        { name: 'Social Work End Sem Paper 2022', year: 2022, link: 'bba/sem1/organizational-behavior-end2022.pdf', examType: 'End Sem' },
+        { name: 'Social Work Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/organizational-behavior-mid2023.pdf', examType: 'Mid Sem' },
+        { name: 'Social Work End Sem Paper 2023', year: 2023, link: 'bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+        { name: 'Social Work Mid Sem Paper 2024', year: 2024, link: 'bba/sem1/organizational-behavior-mid2024.pdf', examType: 'Mid Sem' },
+        { name: 'Social Work End Sem Paper 2024', year: 2024, link: 'link', examType: 'End Sem' },
+      ]
+    },
+    { name: 'Health & PE', papers: [
+      { name: 'Health & PE Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-mid2021.pdf', examType: 'Mid Sem' },
+      { name: 'Health & PE End Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+      { name: 'Health & PE Mid Sem Paper 2022', year: 2022, link: 'bba/sem1/organizational-behavior-mid2022.pdf', examType: 'Mid Sem' },
+      { name: 'Health & PE End Sem Paper 2022', year: 2022, link: 'bba/sem1/organizational-behavior-end2022.pdf', examType: 'End Sem' },
+      { name: 'Health & PE Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/organizational-behavior-mid2023.pdf', examType: 'Mid Sem' },
+      { name: 'Health & PE End Sem Paper 2023', year: 2023, link: 'bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+      { name: 'Health & PE Mid Sem Paper 2024', year: 2024, link: 'bba/sem1/organizational-behavior-mid2024.pdf', examType: 'Mid Sem' },
+      { name: 'Health & PE End Sem Paper 2024', year: 2024, link: 'link', examType: 'End Sem' },
+    ]
+  },
+      ],
+    },
+    {
+      id: 4,
+      title: 'Semester 4',
+      subjects: [
+        { name: 'Physical Chemistry', papers: [
+            { name: 'Physical Chemistry Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/management-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Physical Chemistry End Sem Paper 2021', year: 2021, link: 'bba/sem1/management-end2021.pdf', examType: 'End Sem' },
+            { name: 'Physical Chemistry Mid Sem Paper 2022', year: 2022, link: 'bba/sem1/management-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Physical Chemistry End Sem Paper 2022', year: 2022, link: 'bba/sem1/management-end2022.pdf', examType: 'End Sem' },
+            { name: 'Physical Chemistry Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/management-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Physical Chemistry End Sem Paper 2023', year: 2023, link: 'bba/sem1/management-end2021.pdf', examType: 'End Sem' },
+            { name: 'Physical Chemistry Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1AGLYoQiOY-PxDNcalWfOFIRwcM7epXa4/view?usp=drive_link', examType: 'Mid Sem' },
+            { name: 'Physical Chemistry End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/19yQYjYnyGVhJ15VcaqSbFZ5gA7wJRj7g/view?usp=drive_link', examType: 'End Sem' },
+          ]
+        },
+        { name: 'Inorganic Chemistry', papers: [
+            { name: 'Inorganic Chemistry Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/economics-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Inorganic Chemistry End Sem Paper 2021', year: 2021, link: 'bba/sem1/economics-end2021.pdf', examType: 'End Sem' },
+            { name: 'Inorganic Chemistry Mid Sem Paper 2022', year: 2022, link: 'bba/sem1/economics-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Inorganic Chemistry End Sem Paper 2022', year: 2022, link: 'bba/sem1/economics-end2022.pdf', examType: 'End Sem' },
+            { name: 'Inorganic Chemistry Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/economics-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Inorganic Chemistry End Sem Paper 2023', year: 2023, link: 'bba/sem1/economics-end2021.pdf', examType: 'End Sem' },
+            { name: 'Inorganic Chemistry Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1A8VkoJUrWw8nnMmx7rrserl3VdXLGbvP/view?usp=drive_link', examType: 'Mid Sem' },
+            { name: 'Inorganic Chemistry End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/19ii_LMueJJD5cIjrqMmZijVjbZ-OtxjU/view?usp=drive_link', examType: 'End Sem' },
+          ]
+        },
+        { name: 'Organic Chemistry', papers: [
+            { name: 'Organic Chemistry Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/business-communication-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Organic Chemistry End Sem Paper 2021', year: 2021, link: 'bba/sem1/business-communication-end2021.pdf', examType: 'End Sem' },
+            { name: 'Organic Chemistry Mid Sem Paper 2022', year: 2022, link: 'bba/sem1/business-communication-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Organic Chemistry End Sem Paper 2022', year: 2022, link: 'bba/sem1/business-communication-end2022.pdf', examType: 'End Sem' },
+            { name: 'Organic Chemistry Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/business-communication-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Organic Chemistry End Sem Paper 2023', year: 2023, link: 'bba/sem1/business-communication-end2021.pdf', examType: 'End Sem' },
+            { name: 'Organic Chemistry Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1AZV-7L6_fNtIbspZnujr07-2lJinuEis/view?usp=drive_link', examType: 'Mid Sem' },
+            { name: 'Organic Chemistry End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/19z49xUdJ7IlFzG2uNe0hmCoVFCg6X3oR/view?usp=drive_link', examType: 'End Sem' },
+          ]
+        },
+        { name: 'Maths', papers: [
+            { name: 'Maths Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Maths End Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+            { name: 'Maths Mid Sem Paper 2022', year: 2022, link: 'bba/sem1/organizational-behavior-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Maths End Sem Paper 2022', year: 2022, link: 'bba/sem1/organizational-behavior-end2022.pdf', examType: 'End Sem' },
+            { name: 'Maths Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/organizational-behavior-mid2023.pdf', examType: 'Mid Sem' },
+            { name: 'Maths End Sem Paper 2023', year: 2023, link: 'bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+            { name: 'Maths Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1A7s1gBSWW4JXsdjHBfQ5mTIKuWNl4RHx/view?usp=drive_link', examType: 'Mid Sem' },
+            { name: 'Maths End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/19gxEfXkeofQ2PrWmDnYeyjezrkM2XeXk/view?usp=drive_link', examType: 'End Sem' },
+          ]
+        },
+      { name: 'Statistics', papers: [
+        { name: 'Statistics Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-mid2021.pdf', examType: 'Mid Sem' },
+        { name: 'Statistics End Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+        { name: 'Statistics Mid Sem Paper 2022', year: 2022, link: 'bba/sem1/organizational-behavior-mid2022.pdf', examType: 'Mid Sem' },
+        { name: 'Statistics End Sem Paper 2022', year: 2022, link: 'bba/sem1/organizational-behavior-end2022.pdf', examType: 'End Sem' },
+        { name: 'Statistics Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/organizational-behavior-mid2023.pdf', examType: 'Mid Sem' },
+        { name: 'Statistics End Sem Paper 2023', year: 2023, link: 'bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+        { name: 'Statistics Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1AAK14E-9nEnzT7SkaS8_pRdykK3oUZHe/view?usp=drive_link', examType: 'Mid Sem' },
+        { name: 'Statistics End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/19xaTLy2J1zcqYmrLKotofVL9F4BcIbn1/view?usp=drive_link', examType: 'End Sem' },
+      ]
+    },
+    { name: 'Enviromental Studies', papers: [
+      { name: 'Enviromental Studies Mid Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-mid2021.pdf', examType: 'Mid Sem' },
+      { name: 'Enviromental Studies End Sem Paper 2021', year: 2021, link: 'bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+      { name: 'Enviromental Studies Mid Sem Paper 2022', year: 2022, link: 'bba/sem1/organizational-behavior-mid2022.pdf', examType: 'Mid Sem' },
+      { name: 'Enviromental Studies End Sem Paper 2022', year: 2022, link: 'bba/sem1/organizational-behavior-end2022.pdf', examType: 'End Sem' },
+      { name: 'Enviromental Studies Mid Sem Paper 2023', year: 2023, link: 'bba/sem1/organizational-behavior-mid2023.pdf', examType: 'Mid Sem' },
+      { name: 'Enviromental Studies End Sem Paper 2023', year: 2023, link: 'bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+      { name: 'Enviromental Studies Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1A8szkqXwwkXwVsMbrDMb4adUzjvnT6Ac/view?usp=drive_link', examType: 'Mid Sem' },
+      { name: 'Enviromental Studies End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/19jnTcyJ8VTyWneqmk7_bLmyqNBJsH08w/view?usp=drive_link', examType: 'End Sem' },
+    ]
+  },
+      ],
+    },          
   ],
   BioTech: [
     {
