@@ -364,7 +364,7 @@ export const paperdata =
     },
     
   ],
-  BSCchemistry: [
+  'bSc. Chemistry': [
     {
       id: 1,
       title: 'Semester 1',
@@ -665,7 +665,7 @@ export const paperdata =
       ],
     },          
   ],
-  BioTech: [
+  'BSc. BioTech': [
     {
       id: 1,
       title: 'Semester 1',
@@ -733,6 +733,183 @@ export const paperdata =
           ]
         },
       ],
+    },
+    
+  ],
+  'Chemical Engineering': [
+    {
+      id: 1,
+      title: 'Semester 1',
+      subjects: [
+        { name: 'Introduction to Management', papers: [
+            { name: 'Introduction to Management Mid Sem Paper 2021', year: 2021, link: '/bba/sem1/management-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Introduction to Management End Sem Paper 2021', year: 2021, link: '/bba/sem1/management-end2021.pdf', examType: 'End Sem' },
+            { name: 'Introduction to Management Mid Sem Paper 2022', year: 2022, link: '/bba/sem1/management-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Introduction to Management End Sem Paper 2022', year: 2022, link: '/bba/sem1/management-end2022.pdf', examType: 'End Sem' },
+          ]
+        },
+        { name: 'Principles of Economics', papers: [
+            { name: 'Principles of Economics Mid Sem Paper 2021', year: 2021, link: '/bba/sem1/economics-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Principles of Economics End Sem Paper 2021', year: 2021, link: '/bba/sem1/economics-end2021.pdf', examType: 'End Sem' },
+            { name: 'Principles of Economics Mid Sem Paper 2022', year: 2022, link: '/bba/sem1/economics-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Principles of Economics End Sem Paper 2022', year: 2022, link: '/bba/sem1/economics-end2022.pdf', examType: 'End Sem' },
+          ]
+        },
+        { name: 'Business Communication', papers: [
+            { name: 'Business Communication Mid Sem Paper 2021', year: 2021, link: '/bba/sem1/business-communication-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Business Communication End Sem Paper 2021', year: 2021, link: '/bba/sem1/business-communication-end2021.pdf', examType: 'End Sem' },
+            { name: 'Business Communication Mid Sem Paper 2022', year: 2022, link: '/bba/sem1/business-communication-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Business Communication End Sem Paper 2022', year: 2022, link: '/bba/sem1/business-communication-end2022.pdf', examType: 'End Sem' },
+          ]
+        },
+        { name: 'Organizational Behavior', papers: [
+            { name: 'Organizational Behavior Mid Sem Paper 2021', year: 2021, link: '/bba/sem1/organizational-behavior-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Organizational Behavior End Sem Paper 2021', year: 2021, link: '/bba/sem1/organizational-behavior-end2021.pdf', examType: 'End Sem' },
+            { name: 'Organizational Behavior Mid Sem Paper 2022', year: 2022, link: '/bba/sem1/organizational-behavior-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Organizational Behavior End Sem Paper 2022', year: 2022, link: '/bba/sem1/organizational-behavior-end2022.pdf', examType: 'End Sem' },
+          ]
+        },
+      ],
+    },
+    {
+      id: 2,
+      title: 'Semester 2',
+      subjects: [
+        { name: 'Financial Accounting', papers: [
+            { name: 'Financial Accounting Mid Sem Paper 2021', year: 2021, link: '/bba/sem2/financial-accounting-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Financial Accounting End Sem Paper 2021', year: 2021, link: '/bba/sem2/financial-accounting-end2021.pdf', examType: 'End Sem' },
+            { name: 'Financial Accounting Mid Sem Paper 2022', year: 2022, link: '/bba/sem2/financial-accounting-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Financial Accounting End Sem Paper 2022', year: 2022, link: '/bba/sem2/financial-accounting-end2022.pdf', examType: 'End Sem' },
+          ]
+        },
+        { name: 'Business Law', papers: [
+            { name: 'Business Law Mid Sem Paper 2021', year: 2021, link: '/bba/sem2/business-law-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Business Law End Sem Paper 2021', year: 2021, link: '/bba/sem2/business-law-end2021.pdf', examType: 'End Sem' },
+            { name: 'Business Law Mid Sem Paper 2022', year: 2022, link: '/bba/sem2/business-law-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Business Law End Sem Paper 2022', year: 2022, link: '/bba/sem2/business-law-end2022.pdf', examType: 'End Sem' },
+          ]
+        },
+        { name: 'Marketing Management', papers: [
+            { name: 'Marketing Management Mid Sem Paper 2021', year: 2021, link: '/bba/sem2/marketing-management-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Marketing Management End Sem Paper 2021', year: 2021, link: '/bba/sem2/marketing-management-end2021.pdf', examType: 'End Sem' },
+            { name: 'Marketing Management Mid Sem Paper 2022', year: 2022, link: '/bba/sem2/marketing-management-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Marketing Management End Sem Paper 2022', year: 2022, link: '/bba/sem2/marketing-management-end2022.pdf', examType: 'End Sem' },
+          ]
+        },
+        { name: 'Human Resource Management', papers: [
+            { name: 'Human Resource Management Mid Sem Paper 2021', year: 2021, link: '/bba/sem2/hrm-mid2021.pdf', examType: 'Mid Sem' },
+            { name: 'Human Resource Management End Sem Paper 2021', year: 2021, link: '/bba/sem2/hrm-end2021.pdf', examType: 'End Sem' },
+            { name: 'Human Resource Management Mid Sem Paper 2022', year: 2022, link: '/bba/sem2/hrm-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Human Resource Management End Sem Paper 2022', year: 2022, link: '/bba/sem2/hrm-end2022.pdf', examType: 'End Sem' },
+          ]
+        },
+      ],
+    },
+    {
+      id: 3,
+      title: 'Semester 3',
+      subjects: [
+        { name: 'Process Calculations', papers: [
+            { name: 'Process Calculations Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1Ax9ZbC86e4etE1ZFOzpEAVJdO3lCyf3F/view?usp=drive_link', examType: 'Mid Sem' },
+            { name: 'Process Calculations Remid Sem Paper 2023', year: 2024, link: 'https://drive.google.com/file/d/1Ay-WHG3anOFkalx8ueZc1yixzkI_NWrX/view?usp=drive_link', examType: 'Mid Sem' },
+            { name: 'Process Calculations End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1BOS23_Z6VNwiusdArzdUDN-Etuq3-svW/view?usp=drive_link', examType: 'End Sem' },
+            { name: 'Process Calculations Mid Sem Paper 2024', year: 2024, link: 'bba/sem2/financial-accounting-mid2022.pdf', examType: 'Mid Sem' },
+            { name: 'Process Calculations End Sem Paper 2024', year: 2024, link: 'bba/sem2/financial-accounting-end2022.pdf', examType: 'End Sem' },
+          ]
+        },
+        { name: 'Mechanical Operations', papers: [
+          { name: 'Mechanical Operations Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1B4rExr1Drrp2IHLAry_aiAYkBSNWvdRT/view?usp=drive_link', examType: 'Mid Sem' },
+          { name: 'Mechanical Operations End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1BS9H_tnDQTVBoxd4zU4ov3s5S0z02NcO/view?usp=drive_link', examType: 'End Sem' },
+          { name: 'Mechanical Operations Mid Sem Paper 2024', year: 2024, link: 'bba/sem2/financial-accounting-mid2022.pdf', examType: 'Mid Sem' },
+          { name: 'Mechanical Operations End Sem Paper 2024', year: 2024, link: 'bba/sem2/financial-accounting-end2022.pdf', examType: 'End Sem' },
+        ]
+      }, 
+      { name: 'Maths-III', papers: [
+        { name: 'Maths-III Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1B96-VWzNC4GfXgFqEui_uIQP_XrKZfTf/view?usp=drive_link', examType: 'Mid Sem' },
+        { name: 'Maths-III End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1BSBv6--iW-8xzmgvaP6hOYjEQ38m9M3P/view?usp=drive_link', examType: 'End Sem' },
+        { name: 'Maths-III Mid Sem Paper 2024', year: 2024, link: 'bba/sem2/financial-accounting-mid2022.pdf', examType: 'Mid Sem' },
+        { name: 'Maths-III End Sem Paper 2024', year: 2024, link: 'bba/sem2/financial-accounting-end2022.pdf', examType: 'End Sem' },
+      ]
+    }, 
+    { name: 'Fluid Flow Operation', papers: [
+      { name: 'Fluid Flow Operation Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1BJ3edX8_vqzyLi5vj004ScSnMOVOp-NV/view?usp=drive_link', examType: 'Mid Sem' },
+      { name: 'Fluid Flow Operation End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1BVo2syNQNxz4JmTOQ-Yhndpg2XMuDPzb/view?usp=drive_link', examType: 'End Sem' },
+      { name: 'Fluid Flow Operation Mid Sem Paper 2024', year: 2024, link: 'bba/sem2/financial-accounting-mid2022.pdf', examType: 'Mid Sem' },
+      { name: 'Fluid Flow Operation End Sem Paper 2024', year: 2024, link: 'bba/sem2/financial-accounting-end2022.pdf', examType: 'End Sem' },
+    ]
+  }, 
+  { name: 'Enterpreneurship Developement', papers: [
+    { name: 'Enterpreneurship Developement Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1BKQJWhW3YwWi8-2oc2_HJ3gxoRffqGeJ/view?usp=drive_link', examType: 'Mid Sem' },
+    { name: 'Enterpreneurship Developement End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1BZ0axgcQl7sfE0RPcDJVS3y8y1WPz4ig/view?usp=drive_link', examType: 'End Sem' },
+    { name: 'Enterpreneurship Developement Mid Sem Paper 2024', year: 2024, link: 'bba/sem2/financial-accounting-mid2022.pdf', examType: 'Mid Sem' },
+    { name: 'Enterpreneurship Developement End Sem Paper 2024', year: 2024, link: 'bba/sem2/financial-accounting-end2022.pdf', examType: 'End Sem' },
+    ]
+    }, 
+    { name: 'Applied Chemistry', papers: [
+      { name: 'Applied Chemistry Mid Sem Paper 2023', year: 2023, link: 'link', examType: 'Mid Sem' },
+      { name: 'Applied Chemistry End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1Bdfp5IbwYJO9gm5BsWGncD4ghiDLOnci/view?usp=drive_link', examType: 'End Sem' },
+      { name: 'Applied Chemistry Mid Sem Paper 2024', year: 2024, link: 'bba/sem2/financial-accounting-mid2022.pdf', examType: 'Mid Sem' },
+      { name: 'Applied Chemistry End Sem Paper 2024', year: 2024, link: 'bba/sem2/financial-accounting-end2022.pdf', examType: 'End Sem' },
+      ]
+      }, 
+
+    ],
+    },
+    {
+      id: 4,
+      title: 'Semester 4',
+      subjects: [
+        { name: 'Thermodynamics', papers: [
+            { name: 'Thermodynamics Mid Sem Paper 2023', year: 2023, link: 'link', examType: 'Mid Sem' },
+            { name: 'Thermodynamics End Sem Paper 2023', year: 2023, link: 'link', examType: 'End Sem' },
+            { name: 'Thermodynamics Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1CL2-6GfedODFQ58zO5Q4KKKgwIB3w1Ry/view?usp=drive_link', examType: 'Mid Sem' },
+            { name: 'Thermodynamics End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1Cm8laXR6Dnh8TMCXFcuuVOFgs5DvevRw/view?usp=drive_link', examType: 'End Sem' },
+          ]
+        },
+        { name: 'Process Technology', papers: [
+          { name: 'Process Technology Mid Sem Paper 2023', year: 2023, link: 'link', examType: 'Mid Sem' },
+          { name: 'Process Technology End Sem Paper 2023', year: 2023, link: 'link', examType: 'End Sem' },
+          { name: 'Process Technology Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1COqQWOhqWkZGBsKXTxVP58tWaOEgcDwz/view?usp=drive_link', examType: 'Mid Sem' },
+          { name: 'Process Technology End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1CoQaR59CjsggmuJlzwmjPigydwYvmM8e/view?usp=drive_link', examType: 'End Sem' },
+        ]
+      }, 
+      { name: 'Numerical Methodology(Maths)', papers: [
+        { name: 'Numerical Methodology(Maths) Mid Sem Paper 2023', year: 2023, link: 'link', examType: 'Mid Sem' },
+        { name: 'Numerical Methodology(Maths) End Sem Paper 2023', year: 2023, link: 'link', examType: 'End Sem' },
+        { name: 'Numerical Methodology(Maths) Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1CUyeqYrOaI9OtsTbRYFc8QFn5KXGbPDx/view?usp=drive_link', examType: 'Mid Sem' },
+        { name: 'Numerical Methodology(Maths) End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1CvB3o0KRCgz6hb9Sg3L5DEri1L3bu0hY/view?usp=drive_link', examType: 'End Sem' },
+      ]
+    }, 
+    { name: 'Material Science', papers: [
+      { name: 'Material Science Mid Sem Paper 2023', year: 2023, link: 'link', examType: 'Mid Sem' },
+      { name: 'Material Science End Sem Paper 2023', year: 2023, link: 'link', examType: 'End Sem' },
+      { name: 'Material Science Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1CWAIL-haLTJXcjk8yns6Ni6dg-tgA97s/view?usp=drive_link', examType: 'Mid Sem' },
+      { name: 'Material Science End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1D-Aa3sBEUbl-UIbROsrdZlUCi2UwOHT2/view?usp=drive_link', examType: 'End Sem' },
+    ]
+  }, 
+  { name: 'Industrial Pollution', papers: [
+    { name: 'Industrial Pollution Mid Sem Paper 2023', year: 2023, link: 'link', examType: 'Mid Sem' },
+    { name: 'Industrial Pollution End Sem Paper 2023', year: 2023, link: 'link', examType: 'End Sem' },
+    { name: 'Industrial Pollution Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1CWHJN6hcyUa3RvrK9oT-tYE97UdIp0xt/view?usp=drive_link', examType: 'Mid Sem' },
+    { name: 'Industrial Pollution End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1D-XefFVzWAyFr6K5DY17MQLn-5NdTxFa/view?usp=drive_link', examType: 'End Sem' },
+    ]
+    }, 
+    { name: 'Heat Transfer Operations', papers: [
+      { name: 'Heat Transfer Operations Mid Sem Paper 2023', year: 2023, link: 'link', examType: 'Mid Sem' },
+      { name: 'Heat Transfer Operations End Sem Paper 2023', year: 2023, link: 'link', examType: 'End Sem' },
+      { name: 'Heat Transfer Operations Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1CWJC7LrvO4DBj_Q7VhO0f6lbDEQjs11u/view?usp=drive_link', examType: 'Mid Sem' },
+      { name: 'Heat Transfer Operations End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1D26PY6HwVrfctAvKEQH60tu-sOmqUC7a/view?usp=drive_link', examType: 'End Sem' },
+      ]
+      }, 
+      { name: 'Enviromental Studies', papers: [
+        { name: 'Enviromental Studies Operations Mid Sem Paper 2023', year: 2023, link: 'link', examType: 'Mid Sem' },
+        { name: 'Enviromental Studies Operations End Sem Paper 2023', year: 2023, link: 'link', examType: 'End Sem' },
+        { name: 'Enviromental Studies Operations Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1Ccbe3kPnMf-XgIDBjJsIbRn3Pd98hA_D/view?usp=drive_link', examType: 'Mid Sem' },
+        { name: 'Enviromental Studies Operations End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1D4LpiU-oTeStFqGZ9FDeH0SM8BX0qFNx/view?usp=drive_link', examType: 'End Sem' },
+        ]
+        }, 
+
+    ],
     },
     
   ]
