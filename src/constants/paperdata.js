@@ -134,66 +134,50 @@ export const paperdata =
         { name: 'Discrete Mathematics ', papers: [
            
            
-            { name: 'Discrete Math Mid Sem Paper 2022', year: 2022, link: 'cse/sem2/math2-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Discrete Math End Sem Paper 2022', year: 2022, link: 'cse/sem2/math2-end2022.pdf', examType: 'End Sem' },
             { name: 'Discrete Math Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1STPCC1b1ADkZNEw-GZ4Aqoqjqc01dMEs/view?usp=drive_link', examType: 'Mid Sem' },
             { name: 'Discrete Math End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1TGXzpEUf5TPyH46LhEeeF5aTOoNm4lad/view?usp=drive_link', examType: 'End Sem' },
-            { name: 'Discrete Math Mid Sem Paper 2024', year: 2024, link: 'link', examType: 'Mid Sem' },
-            { name: 'Discrete Math End Sem Paper 2024', year: 2024, link: 'link', examType: 'End Sem' },
+           
           ]
         },
         { name: 'Python Programming', papers: [
            
-            { name: 'Python Programming Mid Sem Paper 2022', year: 2022, link: 'cse/sem2/oop-with-c++-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Python Programming End Sem Paper 2022', year: 2022, link: 'cse/sem2/oop-with-c++-end2022.pdf', examType: 'End Sem' },
+           
             { name: 'Python Programming Mid Sem Paper 2023', year: 2023, link: 'cse/sem2/oop-with-c++-mid2023.pdf', examType: 'Mid Sem' },
             { name: 'Python Programming End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1NynRxatpbxqToWzhYDO9i42elo-vCyKl/view?usp=drive_link', examType: 'End Sem' },
-            { name: 'Python Programming Mid Sem Paper 2024', year: 2024, link: 'link', examType: 'Mid Sem' },
-            { name: 'Python Programming End Sem Paper 2024', year: 2024, link: 'link', examType: 'End Sem' },
+           
           ]
         },
         { name: 'Object Oriented Programming With java', papers: [
            
-            { name: 'Object Oriented Programming With Java Mid Sem Paper 2022', year: 2022, link: 'cse/sem2/environmental-studies-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Object Oriented Programming With Java End Sem Paper 2022', year: 2022, link: 'cse/sem2/environmental-studies-end2022.pdf', examType: 'End Sem' },
+          
             { name: 'Object Oriented Programming With Java Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1UKY9dQpVxl0kgeg1ZFOsmUrWhocBfP4X/view?usp=drive_link', examType: 'Mid Sem' },
             { name: 'Object Oriented Programming With Java End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1AaZfQm4Vs_Z2n6mKA1VONa9g8GKB1MmD/view?usp=drive_link', examType: 'End Sem' },
-            { name: 'Object Oriented Programming With Java Mid Sem Paper 2024', year: 2024, link: 'link', examType: 'Mid Sem' },
-            { name: 'Object Oriented Programming With Java End Sem Paper 2024', year: 2024, link: 'link', examType: 'End Sem' },
+           
            
 
           ]
         },
         { name: 'Operating System', papers: [
           
-          { name: 'Operating System Mid Sem Paper 2022', year: 2022, link: 'cse/sem2/environmental-studies-mid2022.pdf', examType: 'Mid Sem' },
-          { name: 'Operating System End Sem Paper 2022', year: 2022, link: 'cse/sem2/environmental-studies-end2022.pdf', examType: 'End Sem' },
+         
           { name: 'Operating System Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1onZ-VsBzRNWEVadooFIh2VuwsWknTBzJ/view?usp=drive_link', examType: 'Mid Sem' },
           { name: 'Operating System End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1MxrIZO8VZZI9LoUkSNNE6ORbIwSqgCu7/view?usp=drive_link', examType: 'End Sem' },
-          { name: 'Operating System Mid Sem Paper 2024', year: 2024, link: 'link', examType: 'Mid Sem' },
-          { name: 'Operating System End Sem Paper 2024', year: 2024, link: 'link', examType: 'End Sem' },
+         
 
           ]
         },
         { name: 'Computer Organization', papers: [
          
-          { name: 'Computer Organization Mid Sem Paper 2022', year: 2022, link: 'cse/sem2/environmental-studies-mid2022.pdf', examType: 'Mid Sem' },
-          { name: 'Computer Organization End Sem Paper 2022', year: 2022, link: 'cse/sem2/environmental-studies-end2022.pdf', examType: 'End Sem' },
-          { name: 'Computer Organization Mid Sem Paper 2023', year: 2023, link: 'link', examType: 'Mid Sem' },
+         
           { name: 'Computer Organization End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1bbYwkCnAXDmUdGBI2M0MiQ8ZwIFIkupL/view?usp=drive_link', examType: 'End Sem' },
-          { name: 'Computer Organization Mid Sem Paper 2024', year: 2024, link: 'link', examType: 'Mid Sem' },
-          { name: 'Computer Organization End Sem Paper 2024', year: 2024, link: 'link', examType: 'End Sem' },
+         
             ]
         },
         { name: 'Enterpreneurship Developement', papers: [
-            { name: 'Enterpreneurship Developement Mid Sem Paper 2021', year: 2021, link: 'cse/sem2/data-structures-mid2021.pdf', examType: 'Mid Sem' },
-            { name: 'Enterpreneurship Developement End Sem Paper 2021', year: 2021, link: 'cse/sem2/data-structures-end2021.pdf', examType: 'End Sem' },
-            { name: 'Enterpreneurship Developement Mid Sem Paper 2022', year: 2022, link: 'cse/sem2/data-structures-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Enterpreneurship Developement End Sem Paper 2022', year: 2022, link: 'cse/sem2/data-structures-end2022.pdf', examType: 'End Sem' },
-            { name: 'Enterpreneurship Developement Mid Sem Paper 2023', year: 2023, link: 'cse/sem2/data-structures-mid2022.pdf', examType: 'Mid Sem' },
+           
+          
             { name: 'Enterpreneurship Developement End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1Gg3GbcW_IEM8vg9BUpEEOj1wKJ1dtRhy/view?usp=drive_link', examType: 'End Sem' },
-            { name: 'Enterpreneurship Developement Mid Sem Paper 2024', year: 2024, link: 'link', examType: 'Mid Sem' },
-            { name: 'Enterpreneurship Developement End Sem Paper 2024', year: 2024, link: 'link', examType: 'End Sem' },
+          
           ]
         }
       ]
@@ -204,10 +188,7 @@ export const paperdata =
       subjects: [
         { name: 'Numerical Methodology for Mathematics II', papers: [
          
-            { name: 'Numerical Methodology for Mathematics Mid Sem Paper 2022', year: 2022, link: 'cse/sem2/math2-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Numerical Methodology for Mathematics End Sem Paper 2022', year: 2022, link: 'cse/sem2/math2-end2022.pdf', examType: 'End Sem' },
-            { name: 'Numerical Methodology for Mathematics Mid Sem Paper 2023', year: 2023, link: 'cse/sem2/maths2-mid2023.pfd', examType: 'Mid Sem' },
-            { name: 'Numerical Methodology for Mathematics End Sem Paper 2023', year: 2023, link: 'link', examType: 'End Sem' },
+         
             { name: 'Numerical Methodology for Mathematics Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/17Vh1qBYfgRT0dQGsyCLWahCWAt2YY1kS/view?usp=drive_link', examType: 'Mid Sem' },
             { name: 'Numerical Methodology for Mathematics Re-Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1RcaIoGkmAd5kd87vqEDVIbcxZzyj6MJy/view?usp=drive_link', examType: 'Mid Sem' },
             { name: 'Numerical Methodology for Mathematics End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1_pM6LXWJNyWRRnJA2ldcJ6QG1U_T3VTm/view?usp=drive_link', examType: 'End Sem' },
@@ -216,10 +197,8 @@ export const paperdata =
         { name: 'Microprocessor & Interfacing', papers: [
           
           
-            { name: 'Microprocessor & Interfacing Mid Sem Paper 2022', year: 2022, link: 'cse/sem2/oop-with-c++-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Microprocessor & Interfacing End Sem Paper 2022', year: 2022, link: 'cse/sem2/oop-with-c++-end2022.pdf', examType: 'End Sem' },
-            { name: 'Microprocessor & Interfacing Mid Sem Paper 2023', year: 2023, link: 'cse/sem2/oop-with-c++-mid2023.pdf', examType: 'Mid Sem' },
-            { name: 'Microprocessor & Interfacing End Sem Paper 2023', year: 2023, link: 'link', examType: 'End Sem' },
+           
+         
             { name: 'Microprocessor & Interfacing Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1w5s_kLL-bt5dTj0hzW7gekayHl1K8cnA/view?usp=drive_link', examType: 'Mid Sem' },
             { name: 'Microprocessor & Interfacing Re-Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1Ytx_Jo1eDa08VZSdd6HSwnUBnN0XH5XC/view?usp=drive_link', examType: 'Mid Sem' },
             { name: 'Microprocessor & Interfacing End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1ROQSX20JOtKzakBo5bfZ0Klu0-YppJOP/view?usp=drive_link', examType: 'End Sem' },
@@ -227,10 +206,8 @@ export const paperdata =
         },
         { name: 'Enviromental Science', papers: [
           
-            { name: 'Enviromental Science Mid Sem Paper 2022', year: 2022, link: 'cse/sem2/environmental-studies-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Enviromental Science End Sem Paper 2022', year: 2022, link: 'cse/sem2/environmental-studies-end2022.pdf', examType: 'End Sem' },
-            { name: 'Enviromental Science Mid Sem Paper 2023', year: 2023, link: 'link', examType: 'Mid Sem' },
-            { name: 'Enviromental Science End Sem Paper 2023', year: 2023, link: 'link', examType: 'End Sem' },
+          
+         
             { name: 'Enviromental Science Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1Yh5ymA0nztZQxIL0MnPPq21CUDLLbkqP/view?usp=drive_link', examType: 'Mid Sem' },
             { name: 'Enviromental Science End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1RZeFOTzTC0A5jf5Ts0pX4c1kAqzpy4W1/view?usp=drive_link', examType: 'End Sem' },
            
@@ -239,35 +216,67 @@ export const paperdata =
         },
         { name: 'Database Management System', papers: [
          
-          { name: 'Database Management System Mid Sem Paper 2022', year: 2022, link: 'cse/sem2/environmental-studies-mid2022.pdf', examType: 'Mid Sem' },
-          { name: 'Database Management System End Sem Paper 2022', year: 2022, link: 'cse/sem2/environmental-studies-end2022.pdf', examType: 'End Sem' },
-          { name: 'Database Management System Mid Sem Paper 2023', year: 2023, link: 'link', examType: 'Mid Sem' },
-          { name: 'Database Management System End Sem Paper 2023', year: 2023, link: 'link', examType: 'End Sem' },
+       
+         
           { name: 'Database Management System Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1mfpeoT0_IZ0cYhgOlyswUxYN-jrDd0m7/view?usp=drive_link', examType: 'Mid Sem' },
           { name: 'Database Management System End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1_vOMRZU5FgsVl-2RMuL6ZMvFtqUDhnf3/view?usp=drive_link', examType: 'End Sem' },
 
           ]
         },
         { name: 'Computer Networking', papers: [
-          
-          { name: 'Computer Networking Mid Sem Paper 2022', year: 2022, link: 'cse/sem2/environmental-studies-mid2022.pdf', examType: 'Mid Sem' },
-          { name: 'Computer Networking End Sem Paper 2022', year: 2022, link: 'cse/sem2/environmental-studies-end2022.pdf', examType: 'End Sem' },
-          { name: 'Computer Networking Mid Sem Paper 2023', year: 2023, link: 'link', examType: 'Mid Sem' },
-          { name: 'Computer Networking End Sem Paper 2023', year: 2023, link: 'link', examType: 'End Sem' },
+         
           { name: 'Computer Networking Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1R0dSM84hTygthyk4uNwjNwwZyzctAaKo/view?usp=drive_link', examType: 'Mid Sem' },
           { name: 'Computer Networking End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1joJMml7ew22tm6kVhAwNo4QP2d4NYrJP/view?usp=drive_link', examType: 'End Sem' },
             ]
         },
         { name: 'Fundamentals Of AI', papers: [
             
-            { name: 'Fundamentals Of AI Mid Sem Paper 2022', year: 2022, link: 'cse/sem2/data-structures-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Fundamentals Of AI End Sem Paper 2022', year: 2022, link: 'cse/sem2/data-structures-end2022.pdf', examType: 'End Sem' },
-            { name: 'Fundamentals Of AI Mid Sem Paper 2023', year: 2023, link: 'cse/sem2/data-structures-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Fundamentals Of AI End Sem Paper 2023', year: 2023, link: 'link', examType: 'End Sem' },
+          
             { name: 'Fundamentals Of AI Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/1oZpwvPmiHp_cqdybFcO5r1eRnZfhQzH1/view?usp=drive_link', examType: 'Mid Sem' },
             { name: 'Fundamentals Of AI End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/18EjrHJ7pw_1GVOpdhuwncFOopQqv6uRB/view?usp=drive_link', examType: 'End Sem' },
           ]
         }
+      ]
+    },
+    {
+      id: 5,
+      title: 'Semester 5',
+      subjects: [
+        { name: 'DAA', papers: [
+         
+         
+            { name: 'DAA Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1klcZFfb8I_fplxY04uNhfPgXWGzv5Ahw/view?usp=sharing', examType: 'Mid Sem' },
+            { name: 'DAA End Sem Paper 2023', year: 2023, link: '', examType: 'End Sem' },
+          ]
+        },
+        { name: 'DSE', papers: [
+          
+          { name: 'DSE Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/18OCFzDg03EUjEcBYfKO6IU9FM9xh8dZQ/view?usp=sharing', examType: 'Mid Sem' },
+          { name: 'DSE End Sem Paper 2023', year: 2023, link: '', examType: 'End Sem' },
+          ]
+        },
+        { name: 'AWT', papers: [
+          
+          
+          { name: 'AWT Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1jYBdlv11yyDPVfD-vA_tKsOGELCXRQQn/view?usp=sharing', examType: 'Mid Sem' },
+          { name: 'AWT End Sem Paper 2023', year: 2023, link: '', examType: 'End Sem' },
+           
+
+          ]
+        },
+        { name: 'SE', papers: [
+         
+          { name: 'SE Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1WF96jq_iF-7AdQJu9yG8TaAnJA7StQOU/view?usp=sharing', examType: 'Mid Sem' },
+          { name: 'SE End Sem Paper 2023', year: 2023, link: '', examType: 'End Sem' },
+
+          ]
+        },
+        { name: 'IC', papers: [
+         
+          { name: 'IC Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1gt_kkwDI-4UKgW-Ix9tvT60BS-h4MEJJ/view?usp=sharing', examType: 'Mid Sem' },
+          { name: 'IC End Sem Paper 2023', year: 2023, link: '', examType: 'End Sem' },
+            ]
+        },
       ]
     },
     
