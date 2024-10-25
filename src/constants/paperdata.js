@@ -65,9 +65,6 @@ export const paperdata =
         {
           name: 'Mathematics II', papers: [
 
-            { name: 'Math II Mid Sem Paper 2022', year: 2022, link: 'cse/sem2/math2-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Math II End Sem Paper 2022', year: 2022, link: 'cse/sem2/math2-end2022.pdf', examType: 'End Sem' },
-            { name: 'Math II Mid Sem Paper 2023', year: 2023, link: 'cse/sem2/maths2-mid2023.pfd', examType: 'Mid Sem' },
             { name: 'Math II End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1ZeU6bL7ZD9d6wBhDVwjd9xQbVxWgfk2e/view?usp=drive_link', examType: 'End Sem' },
             { name: 'Math II Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/17n1Gco9CjlOinFrtSqNf1PjVNtFXLT2-/view?usp=drive_link', examType: 'Mid Sem' },
             { name: 'Math II End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/18FexFCeX4Y6YpctIdU2cCaOkcaaF_Gub/view?usp=drive_link', examType: 'End Sem' },
@@ -76,9 +73,6 @@ export const paperdata =
         {
           name: 'OOP With C++', papers: [
 
-            { name: 'OOP With C++ Mid Sem Paper 2022', year: 2022, link: 'cse/sem2/oop-with-c++-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'OOP With C++ End Sem Paper 2022', year: 2022, link: 'cse/sem2/oop-with-c++-end2022.pdf', examType: 'End Sem' },
-            { name: 'OOP With C++ Mid Sem Paper 2023', year: 2023, link: 'cse/sem2/oop-with-c++-mid2023.pdf', examType: 'Mid Sem' },
             { name: 'OOP With C++ End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1xJ1wCPSew4au-8PvPskSo3OGV240XXZn/view?usp=drive_link', examType: 'End Sem' },
             { name: 'OOP With C++ Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/16Os8okp1S-ijQHReQrQXrGPChiGc0E9A/view?usp=drive_link', examType: 'Mid Sem' },
             { name: 'OOP With C++ End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/185qd-acrXFBtWPDwZoH2qkDcBo8k27wd/view?usp=drive_link', examType: 'End Sem' },
@@ -87,9 +81,6 @@ export const paperdata =
         {
           name: 'Communication Skills', papers: [
 
-            { name: 'Communication Skills Mid Sem Paper 2022', year: 2022, link: 'cse/sem2/environmental-studies-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Communication Skills End Sem Paper 2022', year: 2022, link: 'cse/sem2/environmental-studies-end2022.pdf', examType: 'End Sem' },
-            { name: 'Communication Skills Mid Sem Paper 2023', year: 2023, link: 'link', examType: 'Mid Sem' },
             { name: 'Communication Skills End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1eisRczHgHUgf8wj3HdGqC4tbTgziXY0e/view?usp=drive_link', examType: 'End Sem' },
             { name: 'Communication Skills Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/16MorjOTV7lvDyza1F3U0kVriMTP0L_S_/view?usp=drive_link', examType: 'Mid Sem' },
             { name: 'Communication Skills End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/180PvyQEGUtj2SY4No6E4qFYVIHsojvLc/view?usp=drive_link', examType: 'End Sem' },
@@ -100,9 +91,6 @@ export const paperdata =
         {
           name: 'Web Technology', papers: [
 
-            { name: 'Web Technology Mid Sem Paper 2022', year: 2022, link: 'cse/sem2/environmental-studies-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Web Technology End Sem Paper 2022', year: 2022, link: 'cse/sem2/environmental-studies-end2022.pdf', examType: 'End Sem' },
-            { name: 'Web Technology Mid Sem Paper 2023', year: 2023, link: 'link', examType: 'Mid Sem' },
             { name: 'Web Technology End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1SYKSqOv1MtPdyy8JZ6Wwnb0OFqbxoa2X/view?usp=drive_link', examType: 'End Sem' },
             { name: 'Web Technology Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/16Jlt-K5BknRs6WhoOFdWDi5Czxr64kUd/view?usp=drive_link', examType: 'Mid Sem' },
             { name: 'Web Technology End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/18AeRBCn5z3qVJq8HC2-Bz1NpzSs0d6Ie/view?usp=drive_link', examType: 'End Sem' },
@@ -111,10 +99,6 @@ export const paperdata =
         },
         {
           name: 'Digital Electronics', papers: [
-
-            { name: 'Digital Electronics Mid Sem Paper 2022', year: 2022, link: 'cse/sem2/environmental-studies-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Digital Electronics End Sem Paper 2022', year: 2022, link: 'cse/sem2/environmental-studies-end2022.pdf', examType: 'End Sem' },
-            { name: 'Digital Electronics Mid Sem Paper 2023', year: 2023, link: 'link', examType: 'Mid Sem' },
             { name: 'Digital Electronics End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1GHaem60dSKXPXM7fhwaff32ucIyUjCeY/view?usp=drive_link', examType: 'End Sem' },
             { name: 'Digital Electronics Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/16Lj89M7xQk2k0Ne-TjExBd9ehB0r1DLQ/view?usp=drive_link', examType: 'Mid Sem' },
             { name: 'Digital Electronics End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/18AMY28EKeAexX5ANjUnKVMESpzI-cf6Y/view?usp=drive_link', examType: 'End Sem' },
@@ -123,9 +107,6 @@ export const paperdata =
         {
           name: 'Data Structures', papers: [
 
-            { name: 'Data Structures Mid Sem Paper 2022', year: 2022, link: 'cse/sem2/data-structures-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Data Structures End Sem Paper 2022', year: 2022, link: 'cse/sem2/data-structures-end2022.pdf', examType: 'End Sem' },
-            { name: 'Data Structures Mid Sem Paper 2023', year: 2023, link: 'cse/sem2/data-structures-mid2022.pdf', examType: 'Mid Sem' },
             { name: 'Data Structures End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1xNEEJmWxFUZ-1jAICmOO4L1ZgO3AwaAO/view?usp=drive_link', examType: 'End Sem' },
             { name: 'Data Structures Mid Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/17rCWVfN5J40nlPJDGX6gTwr2oH7bNmVZ/view?usp=drive_link', examType: 'Mid Sem' },
             { name: 'Data Structures End Sem Paper 2024', year: 2024, link: 'https://drive.google.com/file/d/18A6eHOST9Mnzcl-kg8Il1u83vE0V68t0/view?usp=drive_link', examType: 'End Sem' },
@@ -149,8 +130,6 @@ export const paperdata =
         {
           name: 'Python Programming', papers: [
 
-
-            { name: 'Python Programming Mid Sem Paper 2023', year: 2023, link: 'cse/sem2/oop-with-c++-mid2023.pdf', examType: 'Mid Sem' },
             { name: 'Python Programming End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1NynRxatpbxqToWzhYDO9i42elo-vCyKl/view?usp=drive_link', examType: 'End Sem' },
 
           ]
