@@ -9,8 +9,7 @@ export const paperdata =
       subjects: [
         { name: 'Mathematics I', papers: [
       
-            { name: 'Math I Mid Sem Paper 2022', year: 2022, link: 'sem1/math1-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Math I End Sem Paper 2022', year: 2022, link: 'sem1/math1-end2022.pdf', examType: 'End Sem' },
+            { name: 'Math I End Sem Paper 2022', year: 2022, link: 'https://drive.google.com/file/d/1O7m5-X382EqMfupXQMlkHwpzO-50R7xH/view?usp=sharing', examType: 'End Sem' },
             { name: 'Math I Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/16pSn6HHr0F--XzKEpNHSZZ5lBrrNthxO/view?usp=drive_link', examType: 'Mid Sem' },
             { name: 'Math I Remid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/17I1K33oPENCXsvUsqkdCH8rPM5s9iNfG/view?usp=drive_link', examType: 'End Sem' },
             { name: 'Math I End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/17cWGgnFhX3EMbZjmER-H7jw2NKmthzU9/view?usp=drive_link', examType: 'End Sem' },
@@ -18,39 +17,35 @@ export const paperdata =
         },
         { name: 'English', papers: [
          
-          { name: 'English Mid Sem Paper 2022', year: 2022, link: 'sem1/-mid2022.pdf', examType: 'Mid Sem' },
-          { name: 'English End Sem Paper 2022', year: 2022, link: 'sem1/-end2022.pdf', examType: 'End Sem' },
+          { name: 'English End Sem Paper 2022', year: 2022, link: 'https://drive.google.com/file/d/1S7bEHYZyBd7fJyXFOQqhL7308eCpBgOF/view?usp=sharing', examType: 'End Sem' },
           { name: 'English Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/178DJRqnNlEFJwnZn4y7jmGtDpGj4ka2A/view?usp=drive_link', examType: 'Mid Sem' },
           { name: 'English End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/17jlrtFSTv4_CffAiypfQG0YiFMXSBgBp/view?usp=drive_link', examType: 'End Sem' },
         ]
       },
         { name: 'Physics', papers: [
             
-            { name: 'Physics Mid Sem Paper 2022', year: 2022, link: 'sem1/physics1-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Physics End Sem Paper 2022', year: 2022, link: 'sem1/physics1-end2022.pdf', examType: 'End Sem' },
+            { name: 'Physics End Sem Paper 2022', year: 2022, link: 'https://drive.google.com/file/d/1oJYjIHeROQJapdewGR1J-hkJehmRtiO6/view?usp=sharing', examType: 'End Sem' },
             { name: 'Physics Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/16XS0tk5c5lTVLPtaOxPT05YPE88HvT9S/view?usp=drive_link', examType: 'Mid Sem' },
             { name: 'Physics End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/17XXH3Z9GXwJy72jYWSRvzFArnpAxRdPs/view?usp=drive_link', examType: 'End Sem' },
           ]
         },
         { name: 'Fire & Enviroment Health Safety', papers: [
-           
-            { name: 'Fire & Enviroment Health Safety Mid Sem Paper 2022', year: 2022, link: 'cse/sem1/chemistry-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Fire & Enviroment Health Safety End Sem Paper 2022', year: 2022, link: 'cse/sem1/chemistry-end2022.pdf', examType: 'End Sem' },
+          
+            { name: 'Fire & Enviroment Health Safety End Sem Paper 2022', year: 2022, link: 'https://drive.google.com/file/d/1BmO-xtlQIhwp1nn3gGHCABJSOftNG_lM/view?usp=sharing', examType: 'End Sem' },
             { name: 'Fire & Enviroment Health Safety Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/16YK52t2NNH0JJYhSnYV1GZG9G8OJibF2/view?usp=drive_link', examType: 'Mid Sem' },
             { name: 'Fire & Enviroment Health Safety End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/17d30IxC39vBrP06wKIgM8rytf0PPVPsK/view?usp=drive_link', examType: 'End Sem' },
           ]
         },
         { name: 'Computer Programming (C Lang.)', papers: [
            
-            { name: 'Computer Programming (C Lang.) Midsem 2022', year: 2022, link: 'cse/sem1/programming-basics-mid2022.pdf', examType: 'Mid Sem' },
-            { name: 'Computer Programming (C Lang.) Endsem 2022', year: 2022, link: 'cse/sem1/programming-basics-end2022.pdf', examType: 'End Sem' },
+           
+            { name: 'Computer Programming (C Lang.) Endsem 2022', year: 2022, link: 'https://drive.google.com/file/d/1Spu12prHqhTnOogWt_qbuHAOFJ2hwxDI/view?usp=sharing', examType: 'End Sem' },
             { name: 'Computer Programming (C Lang.) Midsem 2023', year: 2023, link: 'https://drive.google.com/file/d/16bubdGeHvwzA4WjtMSjDFef2pvGcjO9s/view?usp=drive_link', examType: 'Mid Sem' },
             { name: 'Computer Programming (C Lang.) Endsem 2023', year: 2023, link: 'https://drive.google.com/file/d/17YqeLQabl48YcIDJoVPhmAW9Gr_I7wKb/view?usp=drive_link', examType: 'End Sem' },
           ]
         },
         { name: 'BEEE', papers: [
         
-          { name: 'BEEE Midsem Paper 2022', year: 2022, link: 'cse/sem1/programming-basics-mid2022.pdf', examType: 'Mid Sem' },
           { name: 'BEEE Endsem Paper 2022', year: 2022, link: 'cse/sem1/programming-basics-end2022.pdf', examType: 'End Sem' },
           { name: 'BEEE Midsem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/17MVz6gBAtAL-E9viWfimJsoLYYS4Bltv/view?usp=drive_link', examType: 'Mid Sem' },
           { name: 'BEEE Endsem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/17akqrNgYRhqpWXz2Ujp2x7uojcJvG819/view?usp=drive_link', examType: 'End Sem' },
