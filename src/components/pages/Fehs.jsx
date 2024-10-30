@@ -1,10 +1,10 @@
 // Fehs.jsx
 
+import Soon from "./Soon"
 const Fehs = () => {
   return (
     <div>
-      {/* Your component's JSX code here */}
-      <h1>This is the Fehs Page</h1>
+      <Soon/>
     </div>
   );
 };

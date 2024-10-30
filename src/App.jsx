@@ -18,6 +18,7 @@ import Fehs from "./components/pages/Fehs"
 import GetStart from "./components/pages/Getstart"
 import Joinus from "./components/joinus"
 
+import Soon from "./components/pages/Soon"
 
 const App = () => {
 
@@ -44,6 +45,8 @@ const App = () => {
           <Route path="/chemical-engineering" element={<Chemical/>}/>
           <Route path="/fehs" element={<Fehs/>}/>
           <Route path="/bio-tech" element={<BioTech/>}/>   
+
+          <Route path="/soon" element={<Soon/>}/>
 
 
           </Routes>

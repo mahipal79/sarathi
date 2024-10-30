@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Section from "../Section";
 
 const semesters = [
   {
@@ -52,6 +53,7 @@ const Bba = () => {
   };
 
   return (
+    <Section id="">
     <div className="min-h-screen bg-n-8 py-10">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-bold text-center mb-8 text-n-1">
@@ -97,7 +99,9 @@ const Bba = () => {
         </div>
       </div>
     </div>
+    </Section>
   );
+ 
 };
 
 export default Bba;

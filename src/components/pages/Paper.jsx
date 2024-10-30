@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { paperdata } from '../../constants/paperdata';  
-import Heading from '../Heading'; // Adjust the import path as necessary
-import Section from '../Section'; // Adjust the import path as necessary
+import Heading from '../Heading'; 
+import Section from '../Section'; 
 
 
 const Paper = () => {
@@ -46,8 +46,8 @@ const Paper = () => {
   const filteredPapers = papers?.filter(paper => !selectedExamType || paper.examType === selectedExamType);
 
   return (
-    <Section id="features">
-    <div className="p-6 bg-n-8 container ">
+    <Section >
+    <div className="min-h-[50vh] p-6 bg-n-8 container ">
       <Heading title="Filter Papers" className="text-3xl  mb-6 text-center sm:text-left " />
 
       <div className="mb-6">
