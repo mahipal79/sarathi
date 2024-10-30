@@ -241,20 +241,20 @@ export const paperdata =
          
          
             { name: 'DAA Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1klcZFfb8I_fplxY04uNhfPgXWGzv5Ahw/view?usp=sharing', examType: 'Mid Sem' },
-            { name: 'DAA End Sem Paper 2023', year: 2023, link: '', examType: 'End Sem' },
+            { name: 'DAA End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1IMLDUMfxzbc8bMBNH-xwaJ3C2-AXHhMW/view?usp=sharing', examType: 'End Sem' },
           ]
         },
         { name: 'DSE', papers: [
           
           { name: 'DSE Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/18OCFzDg03EUjEcBYfKO6IU9FM9xh8dZQ/view?usp=sharing', examType: 'Mid Sem' },
-          { name: 'DSE End Sem Paper 2023', year: 2023, link: '', examType: 'End Sem' },
+          { name: 'DSE End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1WzwjWQVUVlUeDckRM8pBIZYi9Mbioriq/view?usp=sharing', examType: 'End Sem' },
           ]
         },
         { name: 'AWT', papers: [
           
           
           { name: 'AWT Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1jYBdlv11yyDPVfD-vA_tKsOGELCXRQQn/view?usp=sharing', examType: 'Mid Sem' },
-          { name: 'AWT End Sem Paper 2023', year: 2023, link: '', examType: 'End Sem' },
+          { name: 'AWT End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1Uj3L39c28zK5_J1LJYm5tflWROsTYvqB/view?usp=sharing', examType: 'End Sem' },
            
 
           ]
@@ -262,14 +262,14 @@ export const paperdata =
         { name: 'SE', papers: [
          
           { name: 'SE Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1WF96jq_iF-7AdQJu9yG8TaAnJA7StQOU/view?usp=sharing', examType: 'Mid Sem' },
-          { name: 'SE End Sem Paper 2023', year: 2023, link: '', examType: 'End Sem' },
+          { name: 'SE End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1ouEitcS3g1ILvV__nEL-l1R-OC_MKJC6/view?usp=sharing', examType: 'End Sem' },
 
           ]
         },
         { name: 'IC', papers: [
          
           { name: 'IC Mid Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1gt_kkwDI-4UKgW-Ix9tvT60BS-h4MEJJ/view?usp=sharing', examType: 'Mid Sem' },
-          { name: 'IC End Sem Paper 2023', year: 2023, link: '', examType: 'End Sem' },
+          { name: 'IC End Sem Paper 2023', year: 2023, link: 'https://drive.google.com/file/d/1aeTh9QcMg67nvpH-EwCNbHZpuZlVgJSH/view?usp=sharing', examType: 'End Sem' },
             ]
         },
       ]
