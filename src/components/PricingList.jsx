@@ -1,10 +1,39 @@
+import React, { useState } from "react";
 import { check } from "../assets";
 import { pricing } from "../constants";
 import Button from "./Button";
 
 const PricingList = () => {
+  const [message, setMessage] = useState("");
+
+  const handleMessageChange = (e) => {
+    setMessage(e.target.value);
+  };
+
+  const handleSendMessage = async () => {
+    try {
+      const response = await fetch("http://localhost:5000/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ message }),
+      });
+
+      if (response.ok) {
+        alert("Message sent successfully!");
+        setMessage("");
+      } else {
+        alert("Failed to send message.");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      alert("An error occurred.");
+    }
+  };
+
   return (
-    <div className=" gap-[1rem] max-lg:flex-wrap">
+    <div className="gap-[1rem] max-lg:flex-wrap">
       {pricing.map((item) => (
         <div
           key={item.id}
@@ -12,11 +41,11 @@ const PricingList = () => {
         >
           <h4 className="h4 mb-4">{item.title}</h4>
 
-          <p className="body-2 min-h-[4rem] mb-3 text-n-1/50">
+          <p className="body-2 min-h-[4rem] text-n-1/50">
             {item.description}
           </p>
 
-          <div className="flex items-center h-[5.5rem] mb-6">
+          <div className="flex items-center h-[2rem]">
             {item.price && (
               <>
                 <div className="h3">$</div>
@@ -27,13 +56,45 @@ const PricingList = () => {
             )}
           </div>
 
-          <Button
-            className="w-full mb-6"
-            href={item.price ? "/pricing" : "mailto:contact@jsmastery.pro"}
-            white={!!item.price}
-          >
-            {item.price ? "Get started" : "Contact us"}
-          </Button>
+          {item.price ? (
+            <Button
+              className="w-full mb-6"
+              href="/pricing"
+              white={!!item.price}
+            >
+              Get started
+            </Button>
+          ) : (
+            <div className="flex items-center mb-6">
+              <input
+                type="text"
+                value={message}
+                onChange={handleMessageChange}
+                placeholder="Type your message..."
+                className="w-full px-3 py-2 border border-n-6 rounded-l-[2rem] text-white bg-gray-800"
+              />
+              <button
+                onClick={handleSendMessage}
+                className="px-4 py-2 bg-blue-600 text-white rounded-r-[2rem] flex items-center"
+              >
+                <span className="mr-2">Send</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  className="w-5 h-5"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M3 8l7.89 7.89a1 1 0 001.42 0L21 7M5 19h14"
+                  />
+                </svg>
+              </button>
+            </div>
+          )}
 
           <ul>
             {item.features.map((feature, index) => (

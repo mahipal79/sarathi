@@ -1,19 +1,22 @@
 import { brainwaveSymbol, check } from "../assets";
 import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
+import { Link } from 'react-router-dom';
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
+
 
 const Collaboration = () => {
   return (
     <Section crosses>
       <div className="container lg:flex">
-        <div className="max-w-[25rem]">
-          <h2 className="h2 mb-4 md:mb-8">
+        <div className="max-w-[25rem] ">
+          <h2 className="h2 mb-4 md:mb-8 text-center sm:text-left">
             Become a Part of Our Contributor Network
           </h2>
+           
 
-          <ul className="max-w-[22rem] mb-10 md:mb-14">
+          <ul className="max-w-[22rem] mb-10 md:mb-14 ">
             {collabContent.map((item) => (
               <li className="mb-3 py-3" key={item.id}>
                 <div className="flex items-center">
@@ -27,11 +30,15 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button>Join Us</Button>
+          <Link to="/joinus">
+        <Button>
+          Join Us
+        </Button>
+      </Link>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
-          <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto">
+          <p className="body-2 mb-20 mt-10 text-n-4 md:mb-20 lg:mb-32 lg:w-[22rem] lg:mx-auto text-center sm:text-left ">
             {collabText}
           </p>
 
@@ -43,7 +50,7 @@ const Collaboration = () => {
                     src={brainwaveSymbol}
                     width={48}
                     height={48}
-                    alt="brainwave"
+                    alt="Sarathi"
                   />
                 </div>
               </div>

@@ -8,12 +8,13 @@ import {
   disc02,
   discord,
   discordBlack,
-  facebook,
   figma,
   file02,
   framer,
   homeSmile,
   instagram,
+  roadmap1,
+  roadmap2,
   notification2,
   notification3,
   notification4,
@@ -30,8 +31,8 @@ import {
   telegram,
   twitter,
   yourlogo,
+  
 } from "../assets";
-
 
 
 
@@ -158,7 +159,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
-    url: "#signup",
+    url: "/cse",  // Link to the CSE page
   },
   {
     id: "1",
@@ -168,7 +169,7 @@ export const benefits = [
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
-    url: "#signup",
+    url: "/chemical-engineering",  // Link to the Chemical Engineering page
   },
   {
     id: "2",
@@ -177,7 +178,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
-    url: "#signup",
+    url: "/fehs",  // Link to the Fire and Safety page
   },
   {
     id: "3",
@@ -187,7 +188,7 @@ export const benefits = [
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
     light: true,
-    url: "#signup",
+    url: "/bba",  // Link to the BBA page
   },
   {
     id: "4",
@@ -196,7 +197,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
-    url: "#roadmap",
+    url: "/bca",  // Link to the BCA page
   },
   {
     id: "5",
@@ -205,39 +206,86 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
-    url: "#roadmap",
+    url: "/bio-tech",  // Link to the Bio-Tech page
   },
 ];
+export const roadmap = [
+  {
+    id: "0",
+    title: "Trusted Academic Companion",
+    text: "Sarathi is your go-to resource, offering a vast and reliable collection of university notes and previous exam papers.",
+    date: "Sarathi1.0",
+    status: "done",
+    imageUrl: roadmap1,
+    colorful: true,
+  },
+  {
+    id: "1",
+    title: "Request What You Need",
+    text: "Can’t find the notes or papers you're looking for? Use our Demand Notes System to request specific materials. ",
+    date: "2.0",
+    status: "progress",
+    imageUrl: roadmap2,
+    colorful: true,
+  },
+
+];
+
 
 export const socials = [
   {
     id: "0",
     title: "Discord",
     iconUrl: discordBlack,
-    url: "#",
+    url: "https://discord.gg/pFKeHrkrY6",
   },
   {
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#",
+    url: "https://x.com/Sarathiclg",
   },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "https://www.instagram.com/mahipal_chauhan9?igsh=Z29qaWx0cmhsc3hm",
+    url: "https://www.instagram.com/sarathi.clg",
   },
   {
     id: "3",
     title: "Telegram",
     iconUrl: telegram,
-    url: "#",
+    url: "https://t.me/+ejp_eq46hpwzY2Q1",
+  },
+  // {
+  //   id: "4",
+  //   title: "Facebook",
+  //   iconUrl: facebook,
+  //   url: "#",
+  // },
+];
+export const teamMembers = [
+  {
+    id: 1,
+    name: "Mahipal Chauhan",
+    role: "Web Developer",
+    description: "Crafted the visual experience",
+    imageUrl: "./src/assets/mahipal.jpg", 
+    twitterUrl: "https://www.x.com/mahipal_79",
+    githubUrl: "https://www.github.com/mahipal79",
+    instagramUrl: "https://www.instagram.com/mahipal_chauhan9",
+    linkedinUrl: "https://www.linkedin.com/in/mahipal-chauhan-978396268/",
   },
   {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "#",
+    id: 2,
+    name: "Krishna Bhatt",
+    role: "Web Developer",
+    description: "Crafted the core logic",
+    imageUrl: "./src/assets/krsna.jpg",
+    twitterUrl: "https://www.x.com/itscaybee",
+    instagramUrl: "https://www.instagram.com/itscaybee",
+    githubUrl: "https://www.github.com/ikrishnabhatt",
+    linkedinUrl: "https://www.linkedin.com/in/krishnabhatt01",
+   
   },
 ];
