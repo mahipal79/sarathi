@@ -1,0 +1,31 @@
+﻿{
+  "Position":{
+    "Left":1602,
+    "Top":709
+  },
+  "ShowIds":false,
+  "ShowBoundaries":false,
+  "AutoRun":{
+    "On":false,
+    "AllUsers":false,
+    "Mode":"StartupFolder"
+  },
+  "MovableWindow":true,
+  "StartMinimised":false,
+  "NonDimmableWindow":false,
+  "CloseHidesToTray":true,
+  "ShowInTaskbar":false,
+  "Master":{
+    "On":false,
+    "Dim":30
+  },
+  "Screens":[
+    {
+      "Id":1,
+      "On":true,
+      "Dim":21,
+      "Tint":"000000"
+    }
+  ],
+  "LastRun":"7/22/2024 9:40:34 PM"
+}
