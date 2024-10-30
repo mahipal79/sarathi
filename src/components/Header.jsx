@@ -88,13 +88,14 @@ const Header = () => {
         </nav>
 
         <Link
-          to="/signup"
+         
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
-        >
-          New account
+        >SOON..
+         {/* to="/signup" */}
         </Link>
-        <Button className="hidden lg:flex" href="/signin">
-          Sign in
+        <Button className="hidden lg:flex" >
+        {/* href="/signin" */}
+         Sarathi 2.0
         </Button>
 
         <Button

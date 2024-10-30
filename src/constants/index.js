@@ -14,6 +14,8 @@ import {
   framer,
   homeSmile,
   instagram,
+  roadmap1,
+  roadmap2,
   notification2,
   notification3,
   notification4,
@@ -30,6 +32,7 @@ import {
   telegram,
   twitter,
   yourlogo,
+  
 } from "../assets";
 
 
@@ -207,6 +210,27 @@ export const benefits = [
     url: "/bio-tech",  // Link to the Bio-Tech page
   },
 ];
+export const roadmap = [
+  {
+    id: "0",
+    title: "Trusted Academic Companion",
+    text: "Sarathi is your go-to resource, offering a vast and reliable collection of university notes and previous exam papers.",
+    date: "Sarathi1.0",
+    status: "done",
+    imageUrl: roadmap1,
+    colorful: true,
+  },
+  {
+    id: "1",
+    title: "Request What You Need",
+    text: "Can’t find the notes or papers you're looking for? Use our Demand Notes System to request specific materials. ",
+    date: "2.0",
+    status: "progress",
+    imageUrl: roadmap2,
+    colorful: true,
+  },
+
+];
 
 
 export const socials = [
@@ -239,5 +263,30 @@ export const socials = [
     title: "Facebook",
     iconUrl: facebook,
     url: "#",
+  },
+];
+export const teamMembers = [
+  {
+    id: 1,
+    name: "Mahipal Chauhan",
+    role: "Web Developer",
+    description: "Crafted the visual experience",
+    imageUrl: "./src/assets/mahipal.jpg", 
+    twitterUrl: "https://www.x.com/mahipal_79",
+    githubUrl: "https://www.github.com/mahipal79",
+    instagramUrl: "https://www.instagram.com/mahipal_chauhan9",
+    linkedinUrl: "https://www.linkedin.com/in/mahipal-chauhan-978396268/",
+  },
+  {
+    id: 2,
+    name: "Krishna Bhatt",
+    role: "Web Developer",
+    description: "Crafted the core logic",
+    imageUrl: "./src/assets/krsna.jpg",
+    twitterUrl: "https://www.x.com/itscaybee",
+    instagramUrl: "https://www.instagram.com/itscaybee",
+    githubUrl: "https://www.github.com/ikrishnabhatt",
+    linkedinUrl: "https://www.linkedin.com/in/krishnabhatt01",
+   
   },
 ];

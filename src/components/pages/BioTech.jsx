@@ -1,7 +1,8 @@
 
+import Soon from "./Soon"
 const BioTech = () => {
   return (
-    <div>BioTech</div>
+    <div><Soon/></div>
   )
 }
 

@@ -1,9 +1,10 @@
 import { brainwaveSymbol, check } from "../assets";
 import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
+import { Link } from 'react-router-dom';
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
-import JoinUsForm from "./joinus";
+
 
 const Collaboration = () => {
   return (
@@ -13,7 +14,7 @@ const Collaboration = () => {
           <h2 className="h2 mb-4 md:mb-8 text-center sm:text-left">
             Become a Part of Our Contributor Network
           </h2>
-            <JoinUsForm/>
+           
 
           <ul className="max-w-[22rem] mb-10 md:mb-14 ">
             {collabContent.map((item) => (
@@ -29,7 +30,11 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button>Join Us</Button>
+          <Link to="/joinus">
+        <Button>
+          Join Us
+        </Button>
+      </Link>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">

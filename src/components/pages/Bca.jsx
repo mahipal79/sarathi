@@ -1,8 +1,10 @@
 
-
+import Soon from "./Soon"
 const Bca = () => {
   return (
-    <div>Bca</div>
+    <div> <Soon/>
+    </div>
+   
   )
 }
 

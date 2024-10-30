@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
 const multer = require('multer');
 const cors = require('cors');
+const fs = require('fs'); // Add this for file system operations
 
 const app = express();
 const port = 5000;
@@ -18,8 +19,8 @@ const transporter = nodemailer.createTransport({
   port: 587,
   secure: false, // Use TLS
   auth: {
-    user: 'kdb314515@hotmail.com', // Your Hotmail email
-    pass: 'qwerty123456?', // Your email password or app password
+    user: 'kdb314515@hotmail.com',
+    pass: 'qwerty123456?',
   },
 });
 
@@ -28,24 +29,24 @@ app.post('/send-email', (req, res) => {
   const { message } = req.body;
 
   const mailOptions = {
-    from: 'kdb314515@hotmail.com', // Sender address
-    to: 'notes.sarathi@gmail.com', // Recipient address
+    from: 'kdb314515@hotmail.com',
+    to: 'notes.sarathi@gmail.com',
     subject: 'New Message from Contact Form',
-    text: message, // Email body
+    text: message,
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
-      console.error('Error sending email:', error); // Log error details
+      console.error('Error sending email:', error);
       return res.status(500).send('Failed to send message.');
     }
-    console.log('Email sent:', info.response); // Log successful email sending
+    console.log('Email sent:', info.response);
     res.status(200).send('Message sent successfully!');
   });
 });
 
 // Configure multer for file uploads
-const upload = multer({ dest: 'uploads/' }); // Files will be temporarily stored in 'uploads/' folder
+const upload = multer({ dest: 'uploads/' });
 
 // Endpoint to handle 'Join Us' form submissions
 app.post('/join-us', upload.array('notes'), (req, res) => {
@@ -65,10 +66,10 @@ app.post('/join-us', upload.array('notes'), (req, res) => {
 
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
-      console.error('Error sending email:', error); // Log error details
+      console.error('Error sending email:', error);
       return res.status(500).send('Failed to send message.');
     }
-    console.log('Email sent:', info.response); // Log successful email sending
+    console.log('Email sent:', info.response);
 
     // Clean up uploaded files
     files.forEach((file) => fs.unlinkSync(file.path));

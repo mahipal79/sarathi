@@ -22,7 +22,7 @@ const Hero = () => {
     >
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
-          <h1 className="h1 mb-6">
+          <h1 className="text-base md:text-5xl lg:text-6xl xl:text-10xl mb-6 min-[320px]:text-4xl">
           Elevate Your Learning Experience with Insightful Resources - {` `}
             
             <span className="inline-block relative">
