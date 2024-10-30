@@ -8,7 +8,6 @@ import {
   disc02,
   discord,
   discordBlack,
-  facebook,
   figma,
   file02,
   framer,

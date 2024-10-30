@@ -9,6 +9,8 @@ import Notes from "./components/Pages/Notes";
 import Paper from "./components/Pages/Paper";
 import OurTeam from "./components/pages/OurTeam";
 
+// import Homemain from "./components/pages/Homemain"
+
 import Cse from "./components/pages/Cse"
 import Bba from "./components/pages/Bba"
 import Bca from "./components/pages/Bca"
@@ -31,6 +33,7 @@ const App = () => {
 
         <Routes >
           <Route path="/" element={<Home/>}/>
+          {/* <Route path="*" element={<Homemain/>}/> */}
           <Route path="/notes" element={<Notes/>}/>
           <Route path="/paper" element={<Paper/>}/>
           <Route path="/our-team" element={<OurTeam/>}/>
